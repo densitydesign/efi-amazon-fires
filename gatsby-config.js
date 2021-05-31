@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "efi-amazon-fires",
+    title: 'efi-amazon-fires',
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-react-helmet"],
+  pathPrefix: 'efi-amazon-fires',
+  plugins: ['gatsby-plugin-sass', 'gatsby-plugin-react-helmet'],
 };
