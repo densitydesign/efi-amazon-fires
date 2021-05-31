@@ -1,12 +1,11 @@
 import '../scss/style.scss';
-import { Helmet } from 'react-helmet';
 import Header from './Header';
+import Seo from './Seo';
 
 export default function Layout({ children, section }) {
   return (
     <div>
-
-      <Helmet />
+      <Seo section={section} />
       <Header section={section} />
       {children}
     </div>
