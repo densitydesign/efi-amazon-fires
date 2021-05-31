@@ -1,4 +1,3 @@
-import '../scss/style.scss';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
 
