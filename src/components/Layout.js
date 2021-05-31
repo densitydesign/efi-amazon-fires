@@ -8,6 +8,7 @@ export default function Layout({ children, section }) {
       <Seo section={section} />
       <Header section={section} />
       {children}
+
     </div>
   );
 }
