@@ -12,9 +12,7 @@ export default function Index() {
       </div>
       <StaticImage
         src="../images/icon.png"
-        alt="A dinosaur"
-        placeholder="blurred"
-
+        alt="static image"
         width={200}
         height={200}
       />
