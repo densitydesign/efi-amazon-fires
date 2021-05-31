@@ -11,7 +11,14 @@ export default function Index() {
       <div className="container-fluid">
         <div className="row">prova</div>
       </div>
-      <StaticImage src="../images/icon.png" alt="A dinosaur" />
+      <StaticImage
+        src="../images/icon.png"
+        alt="A dinosaur"
+        placeholder="blurred"
+
+        width={200}
+        height={200}
+      />
       <p>Questa è un'immagine con staticimage di gatsby</p>
     </Layout>
   );
