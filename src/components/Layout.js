@@ -5,9 +5,7 @@ export default function Layout({ children, section }) {
   return (
     <div>
       <Seo section={section} />
-
       {children}
-
     </div>
   );
 }
