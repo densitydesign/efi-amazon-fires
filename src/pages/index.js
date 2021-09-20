@@ -8,7 +8,11 @@ export default function Index() {
     }}
     >
       <div className="container-fluid">
-        <div className="row">prova</div>
+        <div className="row">
+          <p className="fst-italic">
+            prova
+          </p>
+        </div>
       </div>
       <StaticImage
         src="../images/icon.png"
@@ -16,7 +20,7 @@ export default function Index() {
         width={200}
         height={200}
       />
-      <p>Questa è un'immagine con staticimage di gatsby</p>
+      <p className="serif">Questa è un'immagine con staticimage di gatsby</p>
     </Layout>
   );
 }

@@ -1,3 +1,22 @@
+
+$font-family-sans-serif: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-serif: 'Gentium Book Basic', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$blue:    #2B404F;
+$indigo:  #7483B5;
+$red:     #D55342;
+$yellow:  #FFDD5C;
+$green:   #73B8A8;
+$gray-100: #C9C9C9;
+
+$primary: $blue;
+$secondary: $green;
+
+$enable-negative-margins: true;
+
 @import "bootstrap";
 
 
+.serif {
+  font-family: $font-family-serif;
+}
