@@ -2,7 +2,6 @@ import '../scss/style.scss';
 import efi from '../images/footer/efi.png';
 import pdl from '../images/footer/pdl.png';
 import den from '../images/footer/density.png';
-import img1 from '../images/img1.png';
 
 export default function Footer() {
   const logo = [
