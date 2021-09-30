@@ -1,6 +1,8 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
+import img1 from '../images/img1.png';
+import Footer from '../components/Footer';
 
 export default function Index() {
   return (
@@ -9,38 +11,42 @@ export default function Index() {
     }}
     >
       <Navbar />
-      <div className="container-fluid first-section bg-primary text-white">
-        <div className="row align-items-center h-100">
-          <div className="col-10 offset-1">
-            <h1 className="serif fw-bold">Emerging forest governance issues through hashtags</h1>
-          </div>
-          <div className="col-4 offset-1 serif">
-            <p>
-              When looking at the hashtags that emerged around the Amazon rainforest fires, one can observe various issues associated with and dealt with by forest governance, involving local and international political, business and other public figures.
-            </p>
-            <p>
-              This issue story portrays a selection of insights collected through the initial expert consultation 🎤 —  to elicit debates and gather additional interpretations. It provides  observations and findings of clusters of forest governance issues and insights into how they have been brought together with the other hashtags associated with Amazon rainforest fires.
 
+      <div className="container-fluid bg-primary first-section">
+        <div className="row align-items-center h-100">
+          <div className="col-10 offset-1 position-relative">
+            <img src={img1} className="img-fluid w-100" alt="..." />
+            <h1 className="position-absolute serif fw-bolder" style={{ bottom: '15%', left: '10%' }}>Out of the Flames</h1>
+            <h4 className="position-absolute serif" style={{ bottom: '10%', left: '10%' }}>Reconstructing the debates around the Amazon rainforest fires online</h4>
+          </div>
+        </div>
+      </div>
+
+      <div className="container-fluid bg-primary pt-5">
+        <div className="row">
+          <div className="col-2 offset-1">
+            <h3 className="serif">The Project</h3>
+          </div>
+          <div className="col-7 offset-1">
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literang the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
             </p>
           </div>
         </div>
       </div>
+
+      <Footer />
 
     </Layout>
   );
 }
 
-{ /* <div className="container-fluid">
-        <div className="row">
-          <p className="fst-italic">
-            prova
-          </p>
-        </div>
-      </div>
+{ /*
       <StaticImage
         src="../images/icon.png"
         alt="static image"
         width={200}
         height={200}
       />
-      <p className="serif">Questa è un'immagine con staticimage di gatsby</p> */ }
+ */ }
