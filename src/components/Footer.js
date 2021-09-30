@@ -10,7 +10,7 @@ export default function Footer() {
     { src: den },
   ];
   return (
-    <div className="container-fluid footer">
+    <div className="container-fluid gradient">
       <div className="row py-5">
         <div className="col-6 offset-1">
           <div className="row">

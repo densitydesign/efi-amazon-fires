@@ -49,6 +49,23 @@ body {
 height: calc(100vh - var(--navbar-height))
 }
 
-.footer {
+.gradient {
   background: linear-gradient(180deg, #5C707E 0%, #2B404F 100%);
+}
+
+.linkHome {
+  color: white;
+  text-decoration: none;
+}
+
+.linkHome:hover {
+  color: white;
+}
+
+.fadeIndex {
+  opacity: 1;
+}
+.fadeIndex:hover {
+  opacity: 0.8;
+  transition: 0.1s;
 }
