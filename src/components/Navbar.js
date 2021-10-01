@@ -1,6 +1,7 @@
 import '../scss/style.scss';
 import { useState } from 'react';
 import { Link } from 'gatsby';
+import { ReactComponent as Close } from '../svg/x-lg.svg';
 
 export default function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -24,7 +25,7 @@ export default function Navbar() {
               <div className={`side-bar ${menu ? 'active' : ''}`}>
                 <ul className="nav flex-column text-white px-4">
                   <li className="nav-item text-white py-3 pb-5 border-white">
-                    <span className="pointer" onClick={() => setMenu(false)}>x</span>
+                    <span className="pointer" onClick={() => setMenu(false)}><Close /></span>
                   </li>
                   <li className="nav-item text-white py-3 border-bottom border-top border-white">
                     <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="">Home</Link>
