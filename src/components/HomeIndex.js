@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import chap1 from '../images/chap1.png';
 import chap2 from '../images/chap2.png';
 import chap3 from '../images/chap3.png';
+import { Heading4 } from './Typography';
 
 export default function HomeIndex() {
   const homeIndex = [
@@ -41,7 +42,7 @@ export default function HomeIndex() {
                                     <img src={src} className="img-fluid " alt="..." />
                                   </div>
                                   <div className="col-5 offset-1">
-                                    <h4 className="serif fw-bolder pb-3">{title}</h4>
+                                    <Heading4 className=" pb-3" text={title} />
                                     <p>{descr1}</p>
                                     <p>{descr2}</p>
                                   </div>

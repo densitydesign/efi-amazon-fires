@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import img1 from '../images/img1.png';
 import Footer from '../components/Footer';
 import HomeIndex from '../components/HomeIndex';
+import { Heading4 } from '../components/Typography';
 
 export default function Index() {
   return (
@@ -18,7 +19,7 @@ export default function Index() {
           <div className="col-10 offset-1 position-relative">
             <img src={img1} className="img-fluid w-100" alt="..." />
             <h1 className="position-absolute serif fw-bolder" style={{ bottom: '15%', left: '10%' }}>Out of the Flames</h1>
-            <h4 className="position-absolute serif" style={{ bottom: '10%', left: '10%' }}>Reconstructing the debates around the Amazon rainforest fires online</h4>
+            <h4 className="position-absolute serif fw-bolder" style={{ bottom: '10%', left: '10%' }}>Reconstructing the debates around the Amazon rainforest fires online</h4>
           </div>
         </div>
       </div>
@@ -26,7 +27,7 @@ export default function Index() {
       <div className="container-fluid bg-primary py-5">
         <div className="row">
           <div className="col-2 offset-1">
-            <h3 className="serif">The Project</h3>
+            <Heading4 text="The Project" />
           </div>
           <div className="col-7 offset-1">
             <p>

@@ -12,14 +12,14 @@ export default function Navbar() {
         <div className="row h-100 align-items-center">
           <div className="col-10">
             <div className="row">
-              <span>Home</span>
+              <span className="serif fw-bolder">HOME</span>
             </div>
           </div>
           <div className="col-2">
             <div className="row">
               <span className="text-end">
-                <span className="pointer" onClick={() => setMenu(true)}>
-                  Menu
+                <span className="pointer serif fw-bolder" onClick={() => setMenu(true)}>
+                  MENU
                 </span>
               </span>
               <div className={`side-bar ${menu ? 'active' : ''}`}>
