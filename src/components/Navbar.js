@@ -32,7 +32,7 @@ export default function Navbar() {
                   </li>
 
                   <li className="nav-item py-3">
-                    <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="">Issue story 1</Link>
+                    <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="/first-issue">Issue story 1</Link>
                   </li>
                   <li className="nav-item py-3">
                     <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="">Issue story 1</Link>
