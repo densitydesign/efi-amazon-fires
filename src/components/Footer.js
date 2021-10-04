@@ -19,7 +19,7 @@ export default function Footer() {
               logo.map(({
                 src, link,
               }, index) => (
-                <div className="col ">
+                <div className="col " key={index}>
                   <img src={src} className="img-fluid " style={{ height: '80px' }} alt="..." />
                 </div>
               ))
