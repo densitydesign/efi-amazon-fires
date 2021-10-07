@@ -7,6 +7,7 @@ import img1 from '../images/first-issue/1-intro@2x.png';
 import img2 from '../images/first-issue/2-intro.png';
 import img3 from '../images/first-issue/3-bolsVsMacr.png';
 import img4 from '../images/first-issue/4-rightVsLeft.png';
+import img5 from '../images/first-issue/5-proAgainst@2x.png';
 import Image from '../components/Image';
 
 export default function firstIssue() {
@@ -55,8 +56,8 @@ export default function firstIssue() {
 
       <div className="container-fluid bg-primary py-5  ">
         <div className="row gradient py-5">
-          <div className="col-10 offset-1 py-5">
-            <Heading4 classi="py-5" text="1 — Constellation of narratives supporting and opposing Bolsonaro and/or Macron" />
+          <div className="col-10 offset-1 py-3 ">
+            <Heading4 classi="pb-4" text="1 — Constellation of narratives supporting and opposing Bolsonaro and/or Macron" />
           </div>
           <div className="col-6 offset-1">
             <Image src={img3} />
@@ -102,6 +103,24 @@ export default function firstIssue() {
           </div>
           <div className="col-5 offset-1">
             <Image src={img4} />
+          </div>
+        </div>
+        <div className="row py-5 align-items-center">
+          <div className="col-10 offset-1 position-relative">
+            <Image src={img5} />
+
+            <p className="position-absolute col-3" style={{ top: '5%', left: '5%' }}>
+              <span className="text-warning"> These hashtags </span>
+              {' '}
+              were identified as the hashtags against Bolsonaro or pro-Macron.
+            </p>
+
+            <p className="position-absolute col-3" style={{ bottom: '25%', right: '0%' }}>
+              <span className="text-secondary"> These hashtags </span>
+              {' '}
+              were identified as the hashtags against Macron or pro-Bolsonaro (in all languages).
+            </p>
+
           </div>
         </div>
       </div>
