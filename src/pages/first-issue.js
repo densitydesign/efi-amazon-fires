@@ -6,6 +6,7 @@ import {
 import img1 from '../images/first-issue/1-intro@2x.png';
 import img2 from '../images/first-issue/2-intro.png';
 import img3 from '../images/first-issue/3-bolsVsMacr.png';
+import img4 from '../images/first-issue/4-rightVsLeft.png';
 import Image from '../components/Image';
 
 export default function firstIssue() {
@@ -23,7 +24,7 @@ export default function firstIssue() {
         <div className="row align-items-center">
           <div className="col-4 offset-1">
             <p className="py-2 serif">
-              Forest governance deals with a wide range of issues from deforestation to global trade, from land use to sustainable financing. We were curious to know which forest governance issues surfaced on social media in relation to the 2019 Amazon forest fires, which became a global talking point. We looked at how people on Twitter connected these issues to the event.
+              Forest governance deals with a wide range of issues from deforestation to global trade, from land use to sustainable financing. We were curious to know which forest governance issues surfaced on social media in relation to the 2019 Amazon forest fires, which became a global talking point. We looked at how these issues surfaced in relation to the fires.
             </p>
             <p className="py-2 serif">
               Looking at how the hashtags associated with Amazon fires on Twitter relate to each other*, one can observe different voices, concerns and positioning around a wide variety of forest governance issues, involving international and national political, business and other public figures.
@@ -53,9 +54,9 @@ export default function firstIssue() {
       </div>
 
       <div className="container-fluid bg-primary py-5  ">
-        <div className="row gradient">
+        <div className="row gradient py-5">
           <div className="col-10 offset-1 py-5">
-            <Heading4 classi="py-3" text="1 — Pro-against Bolsonaro narratives from Brazil and beyond" />
+            <Heading4 classi="py-5" text="1 — Constellation of narratives supporting and opposing Bolsonaro and/or Macron" />
           </div>
           <div className="col-6 offset-1">
             <Image src={img3} />
@@ -63,7 +64,7 @@ export default function firstIssue() {
           <div className="col-4">
             <Heading3 classi="pb-3" text="Bolsonaro vs Macron: War of Words" />
             <p>
-              One of the most visible theme was associated with the
+              One of the most visible clusters was associated with the
               {' '}
               <span className="text-secondary">Brazilian President Bolsonaro</span>
               {' '}
@@ -72,6 +73,35 @@ export default function firstIssue() {
               <span className="text-warning">French President Macron</span>
               , referred to as the ‘war of words’ by The Guardian.
             </p>
+            <p>When the Amazon rainforest fires became international news, Macron tweeted the need to address the Amazon rainforest fires at the G7 meeting on 22 August 2019, receiving support from the Canadian Prime Minister Trudeau. Bolsonaro then criticised Macron for using the Brazilian issue for personal political gain, saying that suggesting a discussion of the issue without Brazil's involvement showed a colonial mentality in the 21st century. </p>
+            <p>At the same time, Bolsonaro supposedly mocked the French first lady in a Facebook post, to which Macron responded that this was “disrespectful” during the G7 press conference. Brazil then rejectsed $20 million in aid offered by G7 countries, followed by twitter exchanges between the former US President Trump and Bolsonaro showing support to each other. </p>
+          </div>
+        </div>
+        <div className="row py-5 align-items-center">
+          <div className="col-4 offset-1">
+            <p>
+              When looking at the network below, the hashtags
+              {' '}
+              <span className="text-warning">denouncing Bolsonaro or showing support for Macron</span>
+              {' '}
+              were more visible than the hashtags that are either
+              {' '}
+              <span className="text-secondary">supporting Bolsonaro or criticising Macron</span>
+              . In particular, as most hashtags criticising Bolsonaro were in Portuguese, Brazilian perspectives against Bolsonaro have surfaced more prominently in the English language Twitter space.
+            </p>
+            <p>
+              While the hashtags
+              <span className="text-secondary"> critical towards Macron and showing support to Bolsonaro</span>
+              {' '}
+              were scattered across the networks, not forming any clusters of their own, the hashtags
+              {' '}
+              <span className="text-warning">against Bolsonaro</span>
+              {' '}
+              were positioned closely with other hashtags criticising Bolsonaro.
+            </p>
+          </div>
+          <div className="col-5 offset-1">
+            <Image src={img4} />
           </div>
         </div>
       </div>

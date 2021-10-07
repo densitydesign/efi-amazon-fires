@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="row h-100 align-items-center">
           <div className="col-10">
             <div className="row">
-              <span className="serif fw-bolder">HOME</span>
+              <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="/">HOME</Link>
             </div>
           </div>
           <div className="col-2">
@@ -28,7 +28,7 @@ export default function Navbar() {
                     <span className="pointer" onClick={() => setMenu(false)}><Close /></span>
                   </li>
                   <li className="nav-item text-white py-3 border-bottom border-top border-white">
-                    <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="">Home</Link>
+                    <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="/">Home</Link>
                   </li>
 
                   <li className="nav-item py-3">

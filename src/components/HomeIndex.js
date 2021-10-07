@@ -12,7 +12,7 @@ export default function HomeIndex() {
       title: 'Emerging forest governance issues through hashtags\n',
       descr1: 'When looking at the hashtags that emerged around the Amazon rainforest fires, one can observe various issues associated with and dealt with by forest governance, involving local and international political, business and other public figures. ',
       descr2: 'This issue story portrays a selection of insights collected through the initial expert consultation  to elicit debates and gather additional interpretations. It provides  observations and findings of clusters of forest governance issues and insights into how they have been brought together with the other hashtags associated with Amazon rainforest fires. ',
-      link: '',
+      link: '/first-issue',
     },
     {
       src: chap2,
