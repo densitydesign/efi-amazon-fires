@@ -5,6 +5,13 @@ export function Heading1({ text, classi }) {
     <h1 className={`serif fw-bolder ${classi}`}>{text}</h1>
   );
 }
+
+export function Heading3({ text, classi }) {
+  return (
+    <h3 className={`fw-bolder ${classi}`}>{text}</h3>
+  );
+}
+
 export function Heading4({ text, classi }) {
   return (
     <h4 className={`serif fw-bolder ${classi}`}>{text}</h4>

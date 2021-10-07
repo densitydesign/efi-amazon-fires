@@ -1,8 +1,11 @@
 import Navbar from '../components/Navbar';
 import Layout from '../components/Layout';
-import { Heading1, Quote } from '../components/Typography';
+import {
+  Heading1, Heading3, Heading4, Quote,
+} from '../components/Typography';
 import img1 from '../images/first-issue/1-intro@2x.png';
 import img2 from '../images/first-issue/2-intro.png';
+import img3 from '../images/first-issue/3-bolsVsMacr.png';
 import Image from '../components/Image';
 
 export default function firstIssue() {
@@ -47,7 +50,30 @@ export default function firstIssue() {
             </div>
           </div>
         </div>
+      </div>
 
+      <div className="container-fluid bg-primary py-5  ">
+        <div className="row gradient">
+          <div className="col-10 offset-1 py-5">
+            <Heading4 classi="py-3" text="1 — Pro-against Bolsonaro narratives from Brazil and beyond" />
+          </div>
+          <div className="col-6 offset-1">
+            <Image src={img3} />
+          </div>
+          <div className="col-4">
+            <Heading3 classi="pb-3" text="Bolsonaro vs Macron: War of Words" />
+            <p>
+              One of the most visible theme was associated with the
+              {' '}
+              <span className="text-secondary">Brazilian President Bolsonaro</span>
+              {' '}
+              and the series of events and exchanges between him and the
+              {' '}
+              <span className="text-warning">French President Macron</span>
+              , referred to as the ‘war of words’ by The Guardian.
+            </p>
+          </div>
+        </div>
       </div>
     </Layout>
   );
