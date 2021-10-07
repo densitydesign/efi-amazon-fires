@@ -123,6 +123,12 @@ export default function firstIssue() {
 
           </div>
         </div>
+
+        <div className="row">
+          <div className="col-5 offset-1">
+            <Heading3 text="Left-leaning voices against Bolsonaro are clustered and more prominent" />
+          </div>
+        </div>
       </div>
     </Layout>
   );
