@@ -12,7 +12,6 @@ export default function Index() {
       title: 'homepage',
     }}
     >
-      <Navbar />
 
       <div className="container-fluid bg-primary first-section">
         <div className="row align-items-center h-100">
@@ -41,8 +40,6 @@ export default function Index() {
       </div>
 
       <HomeIndex />
-
-      <Footer />
 
     </Layout>
   );

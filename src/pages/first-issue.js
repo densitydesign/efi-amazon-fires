@@ -10,7 +10,6 @@ export default function firstIssue() {
       title: 'Governance Issue',
     }}
     >
-      <Navbar />
       <div className="container-fluid bg-primary first-section">
         <div className="row">
           <div className="col-10 offset-1 py-5">
