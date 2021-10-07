@@ -1,8 +1,5 @@
-import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
-import Navbar from '../components/Navbar';
 import img1 from '../images/img1.png';
-import Footer from '../components/Footer';
 import HomeIndex from '../components/HomeIndex';
 import { Heading4 } from '../components/Typography';
 
