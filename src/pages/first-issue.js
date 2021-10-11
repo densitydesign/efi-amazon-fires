@@ -18,6 +18,10 @@ import img71 from '../images/first-issue/7-macronliarTweet.png';
 import img72 from '../images/first-issue/7-focus1.png';
 import img73 from '../images/first-issue/7-vivabolsonaroTweet.png';
 import img74 from '../images/first-issue/7-focus2.png';
+import img8 from '../images/first-issue/8-deforestationDrivers.png';
+import img9 from '../images/first-issue/9-linking@2x.png';
+import img91 from '../images/first-issue/9-focus1.png';
+import img92 from '../images/first-issue/9-focus2.png';
 import Image from '../components/Image';
 import NextPrev from '../components/NextPrev';
 
@@ -197,6 +201,65 @@ export default function firstIssue() {
           </div>
         </div>
       </div>
+
+      <div className="container-fluid bg-primary py-5  ">
+        <div className="row gradient py-5">
+          <div className="col-10 offset-1 py-3 ">
+            <Heading4 classi="pb-4" text="2. The global North-South link: from deforestation drivers and consumer responsibilities, to international trade and crimes in the forests " />
+          </div>
+          <div className="col-5 offset-1">
+            <Heading3 classi="pb-3" text="Linking deforestation with consumer responsibilities" />
+            <p>
+              Some people who tweeted with trending Amazon fires-related hashtags made the connection between
+              deforestation and consumer responsibilities. As shown below, a number of
+              {' '}
+              <span className="text-light ">deforestation drivers</span>
+              {' '}
+              such as #cattleranching, #beef, #soybeans and #palmoil were brought up in close proximity to the
+              {' '}
+              <span className="text-warning"> deforestation hashtags</span>
+              {' '}
+              including #stopdeforestation, #amazondeforestation, #defunddeforestation..A number of hashtags also referred to consumer practices around meat or beef, such as #gowithoutbeef, #govegan, and #stopeatingmeat..
+            </p>
+          </div>
+          <div className="col-5">
+            <Image src={img8} />
+          </div>
+        </div>
+        <div className="row pt-5">
+          <div className="col-5 offset-1">
+            <Heading3 classi="pb-3" text="Linking deforestation with business, investment, trade, economy and crimes" />
+            <p>
+              There were also
+              {' '}
+              <span className="text-light"> business, investment, economy and trade-related hashtags</span>
+              {' '}
+              forming different clusters. Specific company names such as Minerva, one of the biggest meat processing companies in the world, and Blackrock, the leading investment firm criticised for investing in deforestation also emerged. Some referred to tradewars (i.e. #tradewars) and Mercosur (i.e. #eumercosur, #stopmercosur), while others brought up the CEOs name (#stephenschwarzman, #jeffbezos).
+              {' '}
+              <span className="text-secondary"> There is also a cluster on the top left where #taxpayer, #bank and #cocoa sit close to #trumpaskidsincage and #liarinchief.</span>
+            </p>
+            <Image src={img91} />
+          </div>
+          <div className="col-4 offset-1">
+            <Image src={img9} />
+            <div className="row py-3">
+              <div className="col-8">
+
+                <Image src={img92} />
+              </div>
+            </div>
+            <p>
+              {' '}
+              At the centre bottom, one can also identify a cluster where
+              <span className="text-warning"> #financing, #highway, and #transport</span>
+              {' '}
+              appear next to #responsible.These hashtags were brought together with #farmers, indicating the link with agricultural activities. #responsible was also brought together with #mercosur, a trade bloc.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
       <NextPrev
         next="Next Issue Story >"
         linkNext="/"
