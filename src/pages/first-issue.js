@@ -8,6 +8,11 @@ import img2 from '../images/first-issue/2-intro.png';
 import img3 from '../images/first-issue/3-bolsVsMacr.png';
 import img4 from '../images/first-issue/4-rightVsLeft.png';
 import img5 from '../images/first-issue/5-proAgainst@2x.png';
+import img6 from '../images/first-issue/6-forabolsonaro.png';
+import img61 from '../images/first-issue/6-forabols.png';
+import img62 from '../images/first-issue/6-focus1.png';
+import img63 from '../images/first-issue/6-focus2.png';
+import img64 from '../images/first-issue/6-panelaco.png';
 import Image from '../components/Image';
 
 export default function firstIssue() {
@@ -126,7 +131,30 @@ export default function firstIssue() {
 
         <div className="row">
           <div className="col-5 offset-1">
-            <Heading3 text="Left-leaning voices against Bolsonaro are clustered and more prominent" />
+            <Heading3 classi="pb-3" text="Left-leaning voices against Bolsonaro are clustered and more prominent" />
+            <p>
+              When zooming into
+              {' '}
+              <span className="text-warning">#forabolsonaro</span>
+              , one of the most popular hashtags against Bolsonaro with over 2300 tweets, the top tweet was a tweet by Dilma Bolada, a fictional character who became a social media influencer  during  the terms of Dilma Rousseff, the former Brazilian president.. With 1.1 million followers, the account called for protests  in various cities in Brazil. Another tweet posted a video claiming to show the fires reaching a residential street in the state of Para, one of the Brazilian states with  an increasing deforestation rate. There was also a tweet with a video of protests at the Brazilian embassy in Peru, using hashtags that criticise Bolsonaro and Salles, the former Brazilian Environment Minister.
+            </p>
+            <Image src={img6} />
+            <p>
+              Dilma Bolada’s account was also visible when looking into the hashtags
+              {' '}
+              <span className="text-warning">#panelaco</span>
+              {' '}
+              and
+              {' '}
+              <span className="text-warning">#panelaço</span>
+              . Panelaco is a form of protest which was originally used against the former Dilma government and was later taken over by the protestors against Bolsonaro. The social media influencer’s account tweeted calling for a balcony protest by banging pots and pans at their window using a photo of the former president Dilma holding a pan and sharing a video of panelaço in Rio de Janeiro. One of these tweets was also shared by the Brazilian Senator Humberto Costa and the former Health Minister.
+            </p>
+          </div>
+          <div className="col-3 offset-2">
+            <Image classi="pb-3" src={img61} />
+            <Image classi="py-3" src={img62} />
+            <Image classi="py-3" src={img63} />
+            <Image classi="pt-3" src={img64} />
           </div>
         </div>
       </div>
