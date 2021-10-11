@@ -13,7 +13,13 @@ import img61 from '../images/first-issue/6-forabols.png';
 import img62 from '../images/first-issue/6-focus1.png';
 import img63 from '../images/first-issue/6-focus2.png';
 import img64 from '../images/first-issue/6-panelaco.png';
+import img7 from '../images/first-issue/7-macronliarFull.png';
+import img71 from '../images/first-issue/7-macronliarTweet.png';
+import img72 from '../images/first-issue/7-focus1.png';
+import img73 from '../images/first-issue/7-vivabolsonaroTweet.png';
+import img74 from '../images/first-issue/7-focus2.png';
 import Image from '../components/Image';
+import NextPrev from '../components/NextPrev';
 
 export default function firstIssue() {
   return (
@@ -129,7 +135,7 @@ export default function firstIssue() {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row py-5">
           <div className="col-5 offset-1">
             <Heading3 classi="pb-3" text="Left-leaning voices against Bolsonaro are clustered and more prominent" />
             <p>
@@ -157,7 +163,44 @@ export default function firstIssue() {
             <Image classi="pt-3" src={img64} />
           </div>
         </div>
+
+        <div className="row py-4">
+          <div className="col-5 offset-1">
+            <Heading3 classi="pb-3" text="While not as prominent as those against him, voices supporting Bolsonaro were also present" />
+            <p>
+              When zooming into pro-Bolsonaro hashtags it is possible to identify tweets from pro-Bolsonaro accounts, many of which are suspended on Twitter. For instance,
+              <span className="text-secondary"> #MacronLiar</span>
+              {' '}
+              was used to criticise the NGOs presence in the Amazon. The narrative corresponds to Bolsonaro’s statement on 21 August 2019 accusing them of setting the fires. .
+            </p>
+            <div className="row">
+              <div className="col-8">
+                <Image classi="py-3" src={img71} />
+                <Image classi="py-3" src={img72} />
+              </div>
+            </div>
+            <p className="py-3">
+              Another pro-Bolsonaro hashtag,
+              {' '}
+              <span className="text-secondary">  #vivabolsonaro </span>
+              , was used in a tweet by a columnist of Breitbart, an American far-right news site. The tweet included a link to the Breitbart’s article “Delingpole: Amazon Fires – A Big, Fat Nothingburger of a #FakeNews Scare Story”. The article criticised the news from the mainstream media as “fake news” and twisted the narrative to portray alternative ways to interpret the scientific insights. Interestingly, to do so, the article used a mix of references ranging from tweets from suspended accounts to those from scientists.
+            </p>
+          </div>
+          <div className="col-5 ">
+            <div className="row">
+              <div className="col-8 offset-4">
+                <Image classi="py-3" src={img73} />
+                <Image classi="py-3" src={img74} />
+              </div>
+            </div>
+            <Image classi="py-3" src={img7} />
+          </div>
+        </div>
       </div>
+      <NextPrev
+        next="Next Issue Story >"
+        linkNext="/"
+      />
     </Layout>
   );
 }
