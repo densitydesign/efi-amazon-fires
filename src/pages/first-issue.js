@@ -99,7 +99,7 @@ export default function firstIssue() {
         <div className="row py-5 align-items-center">
           <div className="col-4 offset-1">
             <p>
-              When looking at the network below, the hashtags
+              When looking at the network, the hashtags
               {' '}
               <span className="text-warning">denouncing Bolsonaro or showing support for Macron</span>
               {' '}
