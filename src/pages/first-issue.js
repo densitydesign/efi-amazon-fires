@@ -8,17 +8,11 @@ import img2 from '../images/first-issue/2-intro.png';
 import img3 from '../images/first-issue/3-bolsVsMacr.png';
 import img4 from '../images/first-issue/4-rightVsLeft.png';
 import img5 from '../images/first-issue/5-proAgainst@2x.png';
-
 import img61 from '../images/first-issue/6-forabols.png';
 import img6 from '../images/first-issue/prova.png';
-import img62 from '../images/first-issue/6-focus1.png';
-import img63 from '../images/first-issue/6-focus2.png';
 import img64 from '../images/first-issue/6-panelaco.png';
 import img7 from '../images/first-issue/7-prova.png';
 import img71 from '../images/first-issue/7-macronliarTweet.png';
-import img72 from '../images/first-issue/7-focus1.png';
-import img73 from '../images/first-issue/7-vivabolsonaroTweet.png';
-import img74 from '../images/first-issue/7-focus2.png';
 import img8 from '../images/first-issue/8-deforestationDrivers.png';
 import img9 from '../images/first-issue/9-linking@2x.png';
 import img91 from '../images/first-issue/9-focus1.png';
