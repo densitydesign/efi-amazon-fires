@@ -30,13 +30,13 @@ export default function firstIssue() {
     >
       <div className="container-fluid bg-primary py-5 ">
         <div className="row">
-          <div className="col-10 offset-1 py-5">
+          <div className="col-10 offset-1 py-4">
             <Heading1 text="Emerging forest governance issues through hashtags" />
           </div>
         </div>
         <div className="row align-items-center">
           <div className="col-4 offset-1">
-            <p className="py-2 serif">
+            <p className="pb-2 serif">
               Forest governance deals with a wide range of issues from deforestation to global trade, from land use to sustainable financing. We were curious to know which forest governance issues surfaced on social media in relation to the 2019 Amazon forest fires, which became a global talking point. We looked at how these issues surfaced in relation to the fires.
             </p>
             <p className="py-2 serif">
@@ -90,7 +90,7 @@ export default function firstIssue() {
             <p>At the same time, Bolsonaro supposedly mocked the French first lady in a Facebook post, to which Macron responded that this was “disrespectful” during the G7 press conference. Brazil then rejectsed $20 million in aid offered by G7 countries, followed by twitter exchanges between the former US President Trump and Bolsonaro showing support to each other. </p>
           </div>
         </div>
-        <div className="row py-5 align-items-center">
+        <div className="row pt-2 pb-3 align-items-center">
           <div className="col-4 offset-1">
             <p>
               When looking at the network, the hashtags
@@ -148,12 +148,12 @@ export default function firstIssue() {
               </p>
             </div>
             <div className="col-3 offset-2">
-              <Image classi="" src={img61} />
+              {/* <Image classi="" src={img61} /> */}
             </div>
-            <div className="col-10 offset-1">
+            <div className="col-10 offset-1" style={{ marginTop: '-40vh' }}>
               <Image classi="pb-5" src={img6} />
             </div>
-            <div className="col-5 offset-1">
+            <div className="col-5 offset-1" style={{ marginTop: '-40vh' }}>
               <p>
                 Dilma Bolada’s account was also visible when looking into the hashtags
                 {' '}
@@ -166,7 +166,7 @@ export default function firstIssue() {
               </p>
             </div>
             <div className="col-3 offset-2 mt-n5">
-              <Image classi=" " src={img64} />
+              {/* <Image classi=" " src={img64} /> */}
             </div>
           </div>
         </div>
@@ -183,10 +183,10 @@ export default function firstIssue() {
               </p>
             </div>
             <div className="col-3 offset-2">
-              <Image classi="py-3" src={img71} />
+              {/* <Image classi="py-3" src={img71} /> */}
             </div>
           </div>
-          <div className="row my-n5">
+          <div className="row " style={{ marginTop: '-15vh' }}>
             <div className="col-10 offset-1">
               <Image classi="py-3" src={img7} />
             </div>
@@ -205,7 +205,7 @@ export default function firstIssue() {
       <div className="container-fluid bg-primary py-5  ">
         <div className="row gradient py-5">
           <div className="col-10 offset-1 py-3 ">
-            <Heading4 classi="pb-4" text="2. The global North-South link: from deforestation drivers and consumer responsibilities, to international trade and crimes in the forests " />
+            <Heading4 classi="pb-4" text="2 - The global North-South link: from deforestation drivers and consumer responsibilities, to international trade and crimes in the forests " />
           </div>
           <div className="col-5 offset-1">
             <Heading3 classi="pb-3" text="Linking deforestation with consumer responsibilities" />
@@ -213,13 +213,23 @@ export default function firstIssue() {
               Some people who tweeted with trending Amazon fires-related hashtags made the connection between
               deforestation and consumer responsibilities. As shown below, a number of
               {' '}
-              <span className="text-light ">deforestation drivers</span>
+              <span className="text-light ">
+                deforestation drivers
+                {' '}
+                such as #cattleranching, #beef, #soybeans and #palmoil
+                {' '}
+              </span>
               {' '}
-              such as #cattleranching, #beef, #soybeans and #palmoil were brought up in close proximity to the
+              were brought up in close proximity to the
               {' '}
-              <span className="text-warning"> deforestation hashtags</span>
+              <span className="text-warning">
+                {' '}
+                deforestation hashtags
+                {' '}
+                including #stopdeforestation, #amazondeforestation, #defunddeforestation.
+              </span>
               {' '}
-              including #stopdeforestation, #amazondeforestation, #defunddeforestation..A number of hashtags also referred to consumer practices around meat or beef, such as #gowithoutbeef, #govegan, and #stopeatingmeat..
+              A number of hashtags also referred to consumer practices around meat or beef, such as #gowithoutbeef, #govegan, and #stopeatingmeat..
             </p>
           </div>
           <div className="col-5">
@@ -227,7 +237,7 @@ export default function firstIssue() {
           </div>
         </div>
         <div className="row pt-5">
-          <div className="col-5 offset-1">
+          <div className="col-4 offset-1">
             <Heading3 classi="pb-3" text="Linking deforestation with business, investment, trade, economy and crimes" />
             <p>
               There were also
@@ -238,16 +248,7 @@ export default function firstIssue() {
               {' '}
               <span className="text-secondary"> There is also a cluster on the top left where #taxpayer, #bank and #cocoa sit close to #trumpaskidsincage and #liarinchief.</span>
             </p>
-            <Image classi="border-secondary border-1" src={img91} />
-          </div>
-          <div className="col-4 offset-1">
-            <Image src={img9} />
-            <div className="row py-3">
-              <div className="col-8">
 
-                <Image src={img92} />
-              </div>
-            </div>
             <p>
               {' '}
               At the centre bottom, one can also identify a cluster where
@@ -255,6 +256,17 @@ export default function firstIssue() {
               {' '}
               appear next to #responsible.These hashtags were brought together with #farmers, indicating the link with agricultural activities. #responsible was also brought together with #mercosur, a trade bloc.
             </p>
+
+            {/* <Image classi="border-secondary border-1" src={img91} /> */}
+          </div>
+          <div className="col-5 offset-1">
+            <Image src={img9} />
+            <div className="row py-3">
+              <div className="col-8">
+
+                {/* <Image src={img92} /> */}
+              </div>
+            </div>
 
           </div>
         </div>
@@ -275,7 +287,7 @@ export default function firstIssue() {
         </div>
 
         <div className="row pt-5">
-          <div className="col-5 offset-1 mmb-n5">
+          <div className="col-6 offset-1 mmb-n5">
             <Heading3 classi="pb-3" text="Linking the Amazon Fires with rights-related issues " />
             <p>
               {' '}
