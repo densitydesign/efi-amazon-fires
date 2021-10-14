@@ -185,7 +185,7 @@ export default function firstIssue() {
             <div className="col-10 offset-1">
               <Image classi="py-3" src={img7} />
             </div>
-            <div className="col-5 offset-1 mt-n5">
+            <div className="col-5 offset-1" style={{ marginTop: '-20vh' }}>
               <p className="py-3">
                 Another pro-Bolsonaro hashtag,
                 {' '}
@@ -275,7 +275,7 @@ export default function firstIssue() {
           <div className="col-10 offset-1" style={{ marginTop: '-30vh' }}>
             <Image src={img10} />
           </div>
-          <div className="col-5 offset-1">
+          <div className="col-5 offset-1" style={{ marginTop: '-10vh' }}>
             <p>There was also a cluster referring to crime, misconduct and conflict,, including hashtags such as #warcrime, #corruption, #pollution, #tradewar, #landgrabbing, sitting closely with #leather, #europe, and #cop24. </p>
             <p>These hashtags (#gmo, #glyphosate, and #glifosato) were positioned closely with #crimeagainsthumanity and #stopdeforestation. For instance, #crimeagainsthumanity was brought together with #ecocide, #GOP (the US Republican party), #environment and hashtags against Bolsonaro Salles.</p>
           </div>
@@ -293,6 +293,24 @@ export default function firstIssue() {
           </div>
           <div className="col-8 offset-2 mt-n5">
             <Image src={img11} />
+          </div>
+        </div>
+      </div>
+
+      <div className="container-fluid gradient text-white">
+        <div className="row py-5">
+          <div className="col-1 offset-1">
+            <p className="fw-bolder serif">Participate:</p>
+          </div>
+          <div className="col-2 offset-1">
+            🎤  — Add your voice at this link where we collect inputs about this issue story
+
+          </div>
+          <div className="col-2 offset-1">
+            ✏️ — Read the blog where we share new insights about this issue story
+          </div>
+          <div className="col-2 offset-1">
+            🔎 — Explore the interactive network
           </div>
         </div>
       </div>
