@@ -19,7 +19,7 @@ export default function HomeIndex() {
       title: 'The multifaceted role of science beneath the surface',
       descr1: 'When looking at the role of science in the online debates, one can observe a multi-faceted approach to mobilise  science and scientific perspectives. On one hand, it shows how the scientific debate is almost absent or marginal. Science-related voices and perspectives  become relevant only after the “peak” and are present only at the periphery. ',
       descr2: 'On the other hand, some specific scientific voices  received a significant amount of visibility in the media articles that have been promoted with the misleading claim on social media. This issue story exposes the marginality and diversity of scientific discourses, actors and sources in the online debate',
-      link: '',
+      link: '/second-issue',
     },
     {
       src: chap3,
