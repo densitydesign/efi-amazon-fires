@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
 import { Heading1, Quote } from '../components/Typography';
 import Image from '../components/Image';
-import img1 from '../images/first-issue/1-intro@2x.png';
+import img1 from '../images/second-issue/1-intro.png';
 import img2 from '../images/first-issue/2-intro.png';
 
 export default function secondIssue() {
@@ -32,7 +32,16 @@ export default function secondIssue() {
           </div>
           <div className="col-5 offset-1 mt-n5">
 
-            numeri
+            <div className="row">
+              <div className="col-4">
+                <Image src={img1} />
+              </div>
+              <div className="col-4">
+                <Quote text="Some scientists became the main sources and reference points in social media debates and journalistic articles, while many others did not. Conversation between scientists also took place outside of the main engagement.
+"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
