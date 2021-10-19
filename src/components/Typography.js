@@ -23,3 +23,13 @@ export function Quote({ text, classi }) {
     <h6 className={`serif fst-italic ${classi}`}>{text}</h6>
   );
 }
+
+export function GraphQuote({ emoticon, text, classi }) {
+  return (
+    <h6 className={`serif  ${classi}`}>
+      {emoticon}
+      -
+      {text}
+    </h6>
+  );
+}
