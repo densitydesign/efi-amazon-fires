@@ -55,6 +55,7 @@ export default function secondIssue() {
           <div className="col-10 offset-1 py-3 ">
             <Heading4 classi="pb-4" text="1 — Absence and marginalisation of science on Twitter" />
           </div>
+
           <div className="col-6 offset-1 py-2">
             <GraphQuote classi="py-5" emoticon="📉" text="Top hashtags overtime, resized by number of tweets. Green represents some of the top hashtags with a high number of tweets, while red indicates science-related hashtags with lower number of tweets." />
             <Image src={img2} />
@@ -75,7 +76,8 @@ export default function secondIssue() {
             </p>
             <p>These science-related hashtags were supporting the role of science and/or referring to the Earth observation programme. </p>
           </div>
-
+        </div>
+        <div className="row py-5 align-items-center">
           <div className="col-10 offset-1 pt-5">
             <Image src={img3} />
             <GraphQuote classi="py-5" emoticon="📉" text="Top hashtags overtime, resized by number of tweets (lower section)" />
