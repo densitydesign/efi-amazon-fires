@@ -12,6 +12,11 @@ import img41 from '../images/second-issue/4-nasa.png';
 import img42 from '../images/second-issue/4-science.png';
 import img43 from '../images/second-issue/4-united.png';
 import img5 from '../images/second-issue/5-tweets.png';
+import img51 from '../images/second-issue/5-parm.png';
+import img52 from '../images/second-issue/5-strachan.png';
+import img53 from '../images/second-issue/5-daniel.png';
+import img61 from '../images/second-issue/6-legend.png';
+import img6 from '../images/second-issue/6-main.png';
 
 export default function secondIssue() {
   return (
@@ -143,10 +148,16 @@ export default function secondIssue() {
           </div>
 
         </div>
-        <div className="row align-items-center">
+        <div className="row align-items-center pb-5">
           <div className="col-7 offset-1">
             <GraphQuote classi="py-5" emoticon="📉" text="Top 10 tweets per day for number of retweets" />
             <Image src={img5} />
+            <div className="row py-4 justify-content-between">
+              <div className="col-3"><Image src={img51} /></div>
+              <div className="col-3"><Image src={img52} /></div>
+              <div className="col-3"><Image src={img53} /></div>
+
+            </div>
           </div>
           <div className="col-3">
             <p>
@@ -163,6 +174,27 @@ export default function secondIssue() {
               <span className="text-indigo">Another tweet from a science-related account that appeared after the peak period was from @BiologistDan</span>
               , an account claiming to be a biologist. The tweet points out the link between cattle farming and the fires.
             </p>
+          </div>
+        </div>
+        <div className="row pt-5">
+          <div className="col-6 offset-1">
+            <Heading3 classi="pb-3" text="Scientific actors were mostly peripheral, but a single researcher account found a way to become influential. " />
+            <p>@profstrachan has also appeared as the single most active scientific account among the top 20 users who posted the highest numbers of tweets. . This account is also the most “influential” user in this set, receiving the highest number of mentions more than any other top accounts. </p>
+          </div>
+          <div className="col-4 h-100 align-self-end">
+            <Image src={img61} />
+          </div>
+          <div className="col-9 offset-1" style={{ marginTop: '-2vh' }}>
+            <Image src={img6} />
+          </div>
+          <div className="offset-8 col-3" style={{ marginTop: '-35vh' }}>
+            <p>
+              Far from the centre, there are a few scientist names, namely @Erika_Berenguer, a tropical forest ecologist at the University of Oxford, @AnaPDAguiar, a researcher at the Stockholm Resilience Centre specialised in land use models and scenarios.
+            </p>
+            <p>
+              Further to the right, @nasajpl (NASA Jet Propulsion Laboratory) along with @Space_Station (the International Space Station), @copernicuseu and @copernicusems (the EU Earth Observation Programme) can be observed.
+            </p>
+
           </div>
         </div>
       </div>
