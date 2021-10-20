@@ -1,4 +1,3 @@
-import { GraphQLDate } from 'gatsby/dist/schema/types/date';
 import Layout from '../components/Layout';
 import {
   GraphQuote, Heading1, Heading3, Heading4, Quote,
