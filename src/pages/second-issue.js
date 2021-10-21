@@ -18,6 +18,10 @@ import img61 from '../images/second-issue/6-legend.png';
 import img6 from '../images/second-issue/6-main.png';
 import img62 from '../images/second-issue/6-focus1.png';
 import img7 from '../images/second-issue/7-profstr.png';
+import img8 from '../images/second-issue/8-main.png';
+import img81 from '../images/second-issue/8-legend.png';
+import img9 from '../images/second-issue/9-main.png';
+import img91 from '../images/second-issue/9-tweet.png';
 
 export default function secondIssue() {
   return (
@@ -256,9 +260,56 @@ export default function secondIssue() {
         <div className="row gradient py-5 align-items-center">
           <div className="col-10 offset-1 py-3 ">
             <Heading4 classi="pb-4" text="2 — The role of science in media articles promoted on Twitter with misleading claims" />
-
+            <Heading3 classi="pb-3" text="Media treats scientific voices as the key sources when debunking " />
           </div>
 
+        </div>
+        <div className="row">
+          <div className="col-7 offset-1">
+            <GraphQuote classi="py-3" emoticon="📉" text="Most prominent sources in media articles promoted with a misleading claim on Twitter, resized by number of mention" />
+            <Image src={img8} />
+          </div>
+          <div className="col-2 offset-1">
+            <Image src={img81} />
+            <p className="pt-5">
+              Out of 23 freely accessible, English-language media articles circulated with the misleading claim “20% of the world’s oxygen is produced in the Amazon” on Twitter,
+              <span className="text-secondary"> there were 6 articles which debunked the claim. These articles were published by Forbes, National Geographic, BBC, Science News, Atlantic and Asiaville News.</span>
+              {' '}
+            </p>
+            <p>
+              When compared to stories which treated the misleading claim as (potentially) correct, they had the tendency to
+              {' '}
+              <span className="text-warning">refer to scientific sources more than the articles taking different positions.</span>
+              {' '}
+            </p>
+          </div>
+        </div>
+
+        <div className="row py-5">
+          <div className="col-5 offset-1">
+            <Heading3 text="Some scientists got it wrong and (yet) received media’s attention " />
+          </div>
+          <div className="col-4 offset-1">
+            <p>Scientists, especially those who are not specialised in the Amazon-related issues, can get it wrong. In our sample of 23 articles, there were two scientific sources who referred to the misleading claim as (potentially) accurate. </p>
+          </div>
+          <div className="col-6 offset-1">
+            <Image src={img9} />
+          </div>
+          <div className="col-3 offset-1 pt-5">
+            <p>
+              <span className="text-light">Scott Kelly</span>
+              , a former NASA astronaut and an engineer, appeared in a National Geographic article as someone who promoted a misleading claim. His tweet, quoted in the article, states, “The #AmazonRainforest produces more than 20% of the world's oxygen. We need O2 to survive!”
+            </p>
+            <Image src={img91} />
+          </div>
+          <div className="col-6 offset-1">
+            <p>
+              There was also a
+              <span className="text-warning"> senior research fellow in economics at the United Nations University</span>
+              , who repeatedly appeared in an Arab News article.  In the article, the source mentions, “The Amazon is often referred to as the lungs of the planet, perhaps providing 20 percent of the world’s oxygen”. The article then repeats the claim multiple times, treating it as a confirmed fact.
+              {' '}
+            </p>
+          </div>
         </div>
       </div>
 
