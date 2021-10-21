@@ -317,7 +317,7 @@ export default function firstIssue() {
 
       <NextPrev
         next="Next Issue Story >"
-        linkNext="/"
+        linkNext="/second-issue"
       />
     </Layout>
   );

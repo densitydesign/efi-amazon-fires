@@ -26,6 +26,13 @@ import img101 from '../images/second-issue/10-firstY.png';
 import img102 from '../images/second-issue/10-secondY.png';
 import img103 from '../images/second-issue/10-thirdY.png';
 import img104 from '../images/second-issue/10-fourthY.png';
+import img111 from '../images/second-issue/11-first.png';
+import img112 from '../images/second-issue/11-second.png';
+import img121 from '../images/second-issue/12-first.png';
+import img122 from '../images/second-issue/12-second.png';
+import img131 from '../images/second-issue/13-first.png';
+import img132 from '../images/second-issue/13-second.png';
+import NextPrev from '../components/NextPrev';
 
 export default function secondIssue() {
   return (
@@ -344,7 +351,84 @@ export default function secondIssue() {
             <p>Based on the Crowdtangle data, this article received the highest volume of social media engagement compared to any other articles in our samples, with 317,000+ shares, comments and reactions on Facebook.</p>
           </div>
         </div>
+
+        <div className="row pt-5">
+          <div className="col-2 offset-1">
+            <Image src={img111} />
+          </div>
+          <div className="col-2 ps-3">
+            <Image src={img112} />
+          </div>
+          <div className="col-5">
+            <p>
+              Another Forbes article dedicated more than half of the total source
+              <span className="text-warning">references to Jonathan Foley</span>
+              {' '}
+              , a climate and environmental scientist and the executive director of Project Drawdown
+            </p>
+          </div>
+        </div>
+
+        <div className="row pt-5">
+          <div className="col-2 offset-1">
+            <Image src={img121} />
+          </div>
+          <div className="col-2 ps-3">
+            <Image src={img122} />
+          </div>
+
+          <div className="col-2 offset-1">
+            <Image src={img131} />
+          </div>
+          <div className="col-2 ps-3">
+            <Image src={img132} />
+          </div>
+
+          <div className="col-4 offset-1 py-5">
+            <p>
+
+              Foley appeared in two other articles
+
+              ,
+              {' '}
+              <span className="text-indigo">including a debunking piece published on  National Geographic</span>
+              .h The story referred to him as one of the scientists to criticise the misleading 20% oxygen claim, and included the link to his tweet.
+            </p>
+          </div>
+
+          <div className="col-4 offset-1 py-5">
+            <p>
+              Foley also appeared in
+              {' '}
+              <span className="text-secondary">Science News, another article which debunked the same misleading claim</span>
+              , as the main interviewee to respond to the questions about the impacts of the Amazon fires.
+            </p>
+          </div>
+
+        </div>
       </div>
+
+      <div className="container-fluid gradient text-white">
+        <div className="row py-5">
+          <div className="col-2 offset-1">
+            <p className="fw-bolder serif">Participate:</p>
+          </div>
+          <div className="col-3 offset-1">
+            🎤  — Add your voice at this link where we collect inputs about this issue story
+
+          </div>
+          <div className="col-3 offset-1">
+            ✏️ — Read the blog where we share new insights about this issue story
+          </div>
+        </div>
+      </div>
+
+      <NextPrev
+        next="Next Issue Story >"
+        linkNext="/"
+        prev="Prev Issue Story"
+        linkPrev="/first-issue"
+      />
 
     </Layout>
   );
