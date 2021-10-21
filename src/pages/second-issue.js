@@ -16,6 +16,8 @@ import img52 from '../images/second-issue/5-strachan.png';
 import img53 from '../images/second-issue/5-daniel.png';
 import img61 from '../images/second-issue/6-legend.png';
 import img6 from '../images/second-issue/6-main.png';
+import img62 from '../images/second-issue/6-focus1.png';
+import img7 from '../images/second-issue/7-profstr.png';
 
 export default function secondIssue() {
   return (
@@ -175,26 +177,88 @@ export default function secondIssue() {
             </p>
           </div>
         </div>
-        <div className="row pt-5">
+        <div className="row py-5">
           <div className="col-6 offset-1">
-            <Heading3 classi="pb-3" text="Scientific actors were mostly peripheral, but a single researcher account found a way to become influential. " />
-            <p>@profstrachan has also appeared as the single most active scientific account among the top 20 users who posted the highest numbers of tweets. . This account is also the most “influential” user in this set, receiving the highest number of mentions more than any other top accounts. </p>
+            <Heading3 classi="pb-3" text="Scientific accounts found themselves at the periphery of the Twitter conversation" />
+            <p>
+              Twitter activity does not necessarily succeed in bringing different kinds of actors into sustained new engagements with each other. In particular, scientists and researchers were not only the least visible, but also not engaged with other clusters of actors.
+            </p>
+            <p>
+              While most scientific actors did not come into contact with other most mentioned accounts,
+              {' '}
+              <span className="text-warning">@profstrachan</span>
+              , an account representing an academic specialised in energy policy and environmental management found itself at the centre of Twitter engagement.
+            </p>
           </div>
           <div className="col-4 h-100 align-self-end">
             <Image src={img61} />
           </div>
-          <div className="col-9 offset-1" style={{ marginTop: '-2vh' }}>
+          <div className="col-9 offset-1 pb-3" style={{ marginTop: '-2vh' }}>
             <Image src={img6} />
           </div>
-          <div className="offset-8 col-3" style={{ marginTop: '-35vh' }}>
+          <div className="offset-8 col-3 " style={{ marginTop: '-35vh' }}>
             <p>
-              Far from the centre, there are a few scientist names, namely @Erika_Berenguer, a tropical forest ecologist at the University of Oxford, @AnaPDAguiar, a researcher at the Stockholm Resilience Centre specialised in land use models and scenarios.
-            </p>
-            <p>
-              Further to the right, @nasajpl (NASA Jet Propulsion Laboratory) along with @Space_Station (the International Space Station), @copernicuseu and @copernicusems (the EU Earth Observation Programme) can be observed.
+              Far from the centre, there are a few scientist names, namely
+              <span className="text-secondary">  @Erika_Berenguer</span>
+              , a tropical forest ecologist at the University of Oxford,
+              {' '}
+              <span className="text-secondary"> @AnaPDAguiar</span>
+              , a researcher at the Stockholm Resilience Centre specialised in land use models and scenarios. Further to the right,
+              <span className="text-secondary"> @nasajpl</span>
+              {' '}
+              (NASA Jet Propulsion Laboratory) along with
+              {' '}
+              <span className="text-secondary"> @Space_Station</span>
+              {' '}
+              (the International Space Station),
+              {' '}
+              <span className="text-secondary"> @copernicuseu and @copernicusems</span>
+              {' '}
+              (the EU Earth Observation Programme) can be observed.
             </p>
 
           </div>
+          <div className="col-4 offset-1 pt-5">
+            <p>
+              <span className="text-indigo">@AnaPDAguiar</span>
+              a researcher closely positioned to @Erika_Berenguer tweeted with scientific insights on the increase in the number of fires in the Amazon. It stated that the increase of fires in 2019 has taken place in the period after the deforestation control actions have been put in place. It points out a simple comparison without context can lead to a wrong conclusion.
+            </p>
+            <Image classi="pt-3" src={img62} />
+          </div>
+          <div className="col-4 offset-2 pt-5">
+            <p>
+              <span className="text-light">@Erika_Berenguer</span>
+              was one of the few scientists to surface in our data collections.  With a background in tropical forest ecology, the researcher is currently with Oxford University and Lancaster. The top tweet mentioning her account directed to a tweet with a video of a BBC Newsnight interview.
+            </p>
+            <Image classi="pt-3" src={img1} />
+          </div>
+        </div>
+
+        <div className="row pt-5">
+          <div className="col-7 offset-1">
+            <Heading3 classi="pb-3" text="Scientific actors were mostly peripheral, but a single researcher account found a way to become influential. " />
+          </div>
+          <div className="col-4 offset-1">
+            <p>
+              <span className="text-secondary"> @profstrachan</span>
+              {' '}
+              has also appeared as the single most active scientific account among the top 20 users who posted the highest numbers of tweets.
+            </p>
+            <p>This account is also the most “influential” user in this set, receiving the highest number of mentions more than any other top accounts. </p>
+          </div>
+          <duv className="col-5 offset-1">
+            <Image src={img7} />
+          </duv>
+        </div>
+      </div>
+
+      <div className="container-fluid bg-primary py-5  ">
+        <div className="row gradient py-5 align-items-center">
+          <div className="col-10 offset-1 py-3 ">
+            <Heading4 classi="pb-4" text="2 — The role of science in media articles promoted on Twitter with misleading claims" />
+
+          </div>
+
         </div>
       </div>
 
