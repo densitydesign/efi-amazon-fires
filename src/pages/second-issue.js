@@ -22,6 +22,10 @@ import img8 from '../images/second-issue/8-main.png';
 import img81 from '../images/second-issue/8-legend.png';
 import img9 from '../images/second-issue/9-main.png';
 import img91 from '../images/second-issue/9-tweet.png';
+import img101 from '../images/second-issue/10-firstY.png';
+import img102 from '../images/second-issue/10-secondY.png';
+import img103 from '../images/second-issue/10-thirdY.png';
+import img104 from '../images/second-issue/10-fourthY.png';
 
 export default function secondIssue() {
   return (
@@ -302,13 +306,42 @@ export default function secondIssue() {
             </p>
             <Image src={img91} />
           </div>
-          <div className="col-6 offset-1">
+          <div className="col-6 offset-1 pt-4">
             <p>
               There was also a
               <span className="text-warning"> senior research fellow in economics at the United Nations University</span>
               , who repeatedly appeared in an Arab News article.  In the article, the source mentions, “The Amazon is often referred to as the lungs of the planet, perhaps providing 20 percent of the world’s oxygen”. The article then repeats the claim multiple times, treating it as a confirmed fact.
               {' '}
             </p>
+          </div>
+        </div>
+
+        <div className="row pt-5">
+          <div className="col-5 offset-1">
+            <Heading3 text="Some scientists received significantly more visibility than other sources " />
+          </div>
+        </div>
+        <div className="row pt-3">
+          <div className="col-2 offset-1">
+            <Image src={img101} />
+          </div>
+          <div className="col-2">
+            <Image src={img102} />
+          </div>
+          <div className="col-2">
+            <Image src={img103} />
+          </div>
+          <div className="col-2">
+            <Image src={img104} />
+          </div>
+          <div className="col-4 offset-1 pt-5">
+            <p>
+              Several scientists and researchers appeared multiple times in our sample. In some cases, they were treated as the main source of information. For example, the Forbes debunking article allocated more than half of the total source references to Daniel Nepstad, a forest ecology scientist and the executive director of the Earth Innovation Institute.
+              <span className="text-light"> All references made to Nepstad are highlighted in yellow.</span>
+            </p>
+          </div>
+          <div className="col-4 offset-2 pt-5">
+            <p>Based on the Crowdtangle data, this article received the highest volume of social media engagement compared to any other articles in our samples, with 317,000+ shares, comments and reactions on Facebook.</p>
           </div>
         </div>
       </div>
