@@ -39,6 +39,10 @@ $enable-negative-margins: true;
 color: $indigo;
 }
 
+.border-indigo {
+  border-top:5px solid $indigo;
+}
+
 .serif {
   font-family: $font-family-serif;
 }

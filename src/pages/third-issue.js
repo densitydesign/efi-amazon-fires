@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import {
   GraphQuote, Heading1, Heading3, Heading4, Quote,
@@ -6,9 +7,20 @@ import {
 import NextPrev from '../components/NextPrev';
 import Image from '../components/Image';
 import img1 from '../images/first-issue/1-intro@2x.png';
-import img2 from '../images/first-issue/2-intro.png';
+import img11 from '../images/third-issue/1-jaguar1.png';
+import img12 from '../images/third-issue/1-jaguar2.png';
+import img13 from '../images/third-issue/1-jaguar3.png';
+import img14 from '../images/third-issue/1-jaguar4.png';
+import img21 from '../images/third-issue/2-carousel1.png';
+import img22 from '../images/third-issue/2-carousel2.png';
+import img23 from '../images/third-issue/2-carousel3.png';
+import img24 from '../images/third-issue/2-carousel4.png';
+import img25 from '../images/third-issue/2-carousel5.png';
 
 export default function secondIssue() {
+  const carousel = [
+    img21, img22, img23, img24, img25,
+  ];
   return (
     <Layout section={{
       title: 'Fake images Issue',
@@ -65,7 +77,55 @@ export default function secondIssue() {
               In 2019, the same photo reemerged online when the Amazon fires became an international issue.
             </p>
           </div>
+          <div className="col-4 offset-1">
+            <div className="row pb-4">
+              <div className="col">
+                <Image classi="border-top border-secondary border-5 pt-3" src={img11} />
+              </div>
+              <div className="col">
+                <Image classi="border-top border-warning border-5 pt-3" src={img12} />
+              </div>
+            </div>
+            <div className="row pt-5">
+              <div className="col">
+                <Image classi="border-top border-light border-5 pt-3" src={img13} />
+              </div>
+              <div className="col">
+                <Image classi=" border-indigo  pt-3" src={img14} />
+              </div>
+            </div>
+          </div>
 
+        </div>
+
+        <div className="row py-5">
+          <div className="row">
+            <div className="col-2 offset-1">
+              <Image src={img21} />
+            </div>
+            <div className="col-2">
+              <Image src={img22} />
+            </div>
+            <div className="col-2">
+              <Image src={img23} />
+            </div>
+            <div className="col-2">
+              <Image src={img24} />
+            </div>
+            <div className="col-2">
+              <Image src={img25} />
+            </div>
+          </div>
+          <div className="col-4 offset-1 pt-3">
+            <p>
+              There were other images from unrelated events elsewhere in the world including those showing a monkey, elephant, orangutan, bear and koala.
+            </p>
+          </div>
+          <div className="col-4 offset-1 pt-3">
+            <p>
+              Among these animal photos, we identified that the image of monkeys had a similar history to the jaguar image.
+            </p>
+          </div>
         </div>
       </div>
 
