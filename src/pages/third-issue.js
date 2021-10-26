@@ -16,6 +16,15 @@ import img22 from '../images/third-issue/2-carousel2.png';
 import img23 from '../images/third-issue/2-carousel3.png';
 import img24 from '../images/third-issue/2-carousel4.png';
 import img25 from '../images/third-issue/2-carousel5.png';
+import img26 from '../images/third-issue/2-focus1.png';
+import img27 from '../images/third-issue/2-focus2.png';
+import img28 from '../images/third-issue/2-focus3.png';
+import img31 from '../images/third-issue/3-peru.png';
+import img32 from '../images/third-issue/3-perufocus.png';
+import img33 from '../images/third-issue/3-borneo.png';
+import img34 from '../images/third-issue/3-borneofocus.png';
+import img35 from '../images/third-issue/3-usa.png';
+import img36 from '../images/third-issue/3-usafocus.png';
 
 export default function secondIssue() {
   const carousel = [
@@ -116,15 +125,84 @@ export default function secondIssue() {
               <Image src={img25} />
             </div>
           </div>
-          <div className="col-4 offset-1 pt-3">
-            <p>
-              There were other images from unrelated events elsewhere in the world including those showing a monkey, elephant, orangutan, bear and koala.
-            </p>
+          <div className="row">
+            <div className="col-4 offset-1 pt-3">
+              <p>
+                There were other images from unrelated events elsewhere in the world including those showing a monkey, elephant, orangutan, bear and koala.
+              </p>
+            </div>
+            <div className="col-4 offset-1 pt-3">
+              <p>
+                Among these animal photos, we identified that the image of monkeys had a similar history to the jaguar image.
+              </p>
+            </div>
           </div>
-          <div className="col-4 offset-1 pt-3">
-            <p>
-              Among these animal photos, we identified that the image of monkeys had a similar history to the jaguar image.
-            </p>
+
+          <div className="row pt-5">
+            <div className="col-5 offset-1">
+              <div className="row">
+                <div className="col-6">
+                  <Image src={img26} />
+                </div>
+                <div className="col-6">
+                  <p>When running a reverse image search on TinEye, it is possible to determine that the original image was published in 2017. In the same year, the Independent published the photo stating that the picture was from Jabalpur, India.</p>
+                </div>
+              </div>
+              <div className="row pt-4">
+                <div className="col-6">
+                  <Image src={img27} />
+                </div>
+                <div className="col-6">
+                  <p>During the 2019 Amazon rainforest fires, this image of the monkeys has been modified to form an Internet meme, where the flames have been added in the background. </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-5">
+              <div className="row">
+                <div className="col-6">
+                  <Image src={img28} />
+                </div>
+                <div className="col-6">
+                  <p>In the peak period of the Amazon fires, this image has also appeared on the printed edition of the Arab News article. The article also treated the misleading claim of the Amazon producing 20% oxygen as a confirmed fact, while it was highly contested by scientists and journalists.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row pt-5">
+            <div className="col-7 offset-1">
+              <p>
+                Other animal photos included burnt animals, many of which were from the past events including the
+                {' '}
+                <span className="text-light">fires in Cajamarca, Peru (2016),</span>
+                {' '}
+                at the
+                {' '}
+                <span className="text-secondary"> Kutai National Park in the Borneo Island, Malaysia (2016),</span>
+                {' '}
+                and in
+                {' '}
+                <span className="text-warning"> California, USA (2018).</span>
+                {' '}
+                The latter two have also emerged on Twitter during the fires at the Bandipur national park in India.
+              </p>
+            </div>
+          </div>
+          <div className="row py-5">
+            <div className="col-2 offset-1">
+              <Image classi="border-top border-light border-5 pt-3" src={img31} />
+              <Image classi="pt-4" src={img32} />
+            </div>
+
+            <div className="col-2 offset-1">
+              <Image classi="border-top border-secondary border-5 pt-3" src={img33} />
+              <Image classi="pt-4" src={img34} />
+            </div>
+
+            <div className="col-2 offset-1">
+              <Image classi="border-top border-warning border-5 pt-3" src={img35} />
+              <Image classi="pt-4" src={img36} />
+            </div>
           </div>
         </div>
       </div>
