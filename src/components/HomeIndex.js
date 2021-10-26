@@ -26,7 +26,7 @@ export default function HomeIndex() {
       title: 'Tracing online recycling practices ',
       descr1: 'The Amazon rainforest fires have been widely picked up by a number of political actors, celebrities, and athletes including the French President Macron, Leonardo DiCaprio and Cristiano Ronaldo. ',
       descr2: 'This issue story surfaces instances of recycled media and claims related to the Amazon rainforest fires over time, tracing the life cycles of some of these content. It collates top hashtags, top domain and most engaged with images over time to narrate the rhythm and pace of transformation in the 10 days period under analysis and beyond. ',
-      link: '',
+      link: 'third-issue',
     },
   ];
   return (
