@@ -25,6 +25,9 @@ import img33 from '../images/third-issue/3-borneo.png';
 import img34 from '../images/third-issue/3-borneofocus.png';
 import img35 from '../images/third-issue/3-usa.png';
 import img36 from '../images/third-issue/3-usafocus.png';
+import img41 from '../images/third-issue/4-macron.png';
+import img42 from '../images/third-issue/4-ronaldo.png';
+import img43 from '../images/third-issue/4-leonardo.png';
 
 export default function secondIssue() {
   const carousel = [
@@ -202,6 +205,40 @@ export default function secondIssue() {
             <div className="col-2 offset-1">
               <Image classi="border-top border-warning border-5 pt-3" src={img35} />
               <Image classi="pt-4" src={img36} />
+            </div>
+          </div>
+
+          <div className="row py-5">
+            <div className="col-6 offset-1">
+              <Heading3 text="Forest and fire images and videos from unrelated events have also emerged online" />
+            </div>
+            <div className="col-5 offset-1 pt-4">
+              <p>
+                Recycled images shared by public figures appeared several times in our analysis. For instance,
+                <span className="text-light"> an old image of burning forests tweeted by Macron</span>
+                {' '}
+                has appeared multiple times on Facebook and Instagram.
+                {' '}
+              </p>
+              <p>
+                This image was shot by a photographer who passed away in 2003. The
+                <span className="text-warning">photo posted by Cristiano Ronaldo</span>
+                {' '}
+                was from 2013 and not taken in southern Brazil.
+              </p>
+              <p>
+                <span className="text-secondary">Leonardo DiCaprio also acknowledged that the photo</span>
+                {' '}
+                on his Instagram was from 2017.
+              </p>
+            </div>
+            <div className="col-4">
+              <div className="row">
+                <div className="col-6"><Image classi="border-top border-light border-5 pt-3" src={img41} /></div>
+                <div className="col-6"><Image classi="border-top border-warning border-5 pt-3" src={img42} /></div>
+                <div className="col-6 pt-4"><Image classi="border-top border-secondary border-5 pt-3" src={img43} /></div>
+              </div>
+
             </div>
           </div>
         </div>
