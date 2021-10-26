@@ -193,7 +193,7 @@ export default function secondIssue() {
           </div>
         </div>
         <div className="row py-5">
-          <div className="col-6 offset-1">
+          <div className="col-6 offset-1" style={{ marginBottom: '-2vh' }}>
             <Heading3 classi="pb-3" text="Scientific accounts found themselves at the periphery of the Twitter conversation" />
             <p>
               Twitter activity does not necessarily succeed in bringing different kinds of actors into sustained new engagements with each other. In particular, scientists and researchers were not only the least visible, but also not engaged with other clusters of actors.
@@ -205,10 +205,7 @@ export default function secondIssue() {
               , an account representing an academic specialised in energy policy and environmental management found itself at the centre of Twitter engagement.
             </p>
           </div>
-          <div className="col-4 h-100 align-self-end">
-            <Image src={img61} />
-          </div>
-          <div className="col-9 offset-1 pb-3" style={{ marginTop: '-2vh' }}>
+          <div className="col-10 offset-1 pb-3" style={{ marginTop: '-10vh' }}>
             <Image src={img6} />
           </div>
           <div className="offset-8 col-3 " style={{ marginTop: '-35vh' }}>
@@ -347,7 +344,7 @@ export default function secondIssue() {
               <span className="text-light"> All references made to Nepstad are highlighted in yellow.</span>
             </p>
           </div>
-          <div className="col-4 offset-2 pt-5">
+          <div className="col-4 offset-1 pt-5">
             <p>Based on the Crowdtangle data, this article received the highest volume of social media engagement compared to any other articles in our samples, with 317,000+ shares, comments and reactions on Facebook.</p>
           </div>
         </div>
