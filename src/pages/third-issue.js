@@ -28,6 +28,11 @@ import img36 from '../images/third-issue/3-usafocus.png';
 import img41 from '../images/third-issue/4-macron.png';
 import img42 from '../images/third-issue/4-ronaldo.png';
 import img43 from '../images/third-issue/4-leonardo.png';
+import img51 from '../images/third-issue/5-first.png';
+import img52 from '../images/third-issue/5-second.png';
+import img53 from '../images/third-issue/5-third.png';
+import img61 from '../images/third-issue/6-twee.png';
+import img62 from '../images/third-issue/6-debunk.png';
 
 export default function secondIssue() {
   const carousel = [
@@ -240,7 +245,69 @@ export default function secondIssue() {
               </div>
 
             </div>
+            <div className="col-5 offset-1 py-5">
+              <p>There were other forest-related images from various locations in the world. </p>
+              <p>
+                For example,
+                {' '}
+                <span className="text-warning">the most retweeted tweet is from 26th August (14340 retweets)</span>
+                {' '}
+                , and  included a photo claiming to show the deforestation issues in Thailand.
+              </p>
+
+              <p>
+                When running a TinEye reverse image search, one can see that this photo has also appeared in a
+                {' '}
+                <span className="text-light"> news article published on 19 May 2018 by Thairath</span>
+                , which reported about the housing project in Chiang Mai province claiming to affect the forest ecosystems in the area.
+              </p>
+            </div>
+            <div className="col-10 offset-1">
+              <div className="row">
+                <div className="col-3">
+                  <Image classi="border-top border-warning border-5 pt-3" src={img51} />
+                </div>
+                <div className="col-3">
+                  <Image classi="border-top border-light border-5 pt-3" src={img52} />
+                </div>
+                <div className="col-3">
+                  <Image src={img53} />
+                </div>
+              </div>
+            </div>
           </div>
+
+          <div className="row py-5">
+            <div className="col-5 offset-1">
+              <p> Another example is a fire-related video promoted by the Sunrise Movement on Twitter. Their tweet gathered more than 131K retweets and 157K likes and generated discussion on Twitter. While it was filmed in a place closer to the Amazon, it did not actually come from the affected area. </p>
+              <p>
+                The tweet included a
+                <span className="text-indigo"> referral video where a Pataxo indigenous </span>
+                {' '}
+                woman is calling for the media's attention on their burning land. Originally from Brumadinho, the Pataxo-Hahahae tribe was directly affected by a dam collapse in early 2019.
+                {' '}
+              </p>
+              <p>
+                The tweet included a source link to a user @kimtaehgukk who tweeted this video on 21 August 2019.
+              </p>
+            </div>
+            <div className="col-5">
+              <Image classi=" border-indigo pt-3" src={img61} />
+            </div>
+            <div className="col-5 offset-1 pt-5">
+              <Image classi="border-top border-secondary border-5 pt-3" src={img62} />
+            </div>
+            <div className="col-5 pt-5">
+              <p>
+                This video was
+                <span className="text-secondary"> later debunked by the Associated Press </span>
+                {' '}
+                as content not linked with the Amazon rainforest fires, but was instead filmed in the Brazilian state of Minas Gerais.
+                {' '}
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
 
