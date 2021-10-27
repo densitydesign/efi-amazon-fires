@@ -33,6 +33,28 @@ import img52 from '../images/third-issue/5-second.png';
 import img53 from '../images/third-issue/5-third.png';
 import img61 from '../images/third-issue/6-twee.png';
 import img62 from '../images/third-issue/6-debunk.png';
+import img7 from '../images/third-issue/7-tweet.png';
+import img71 from '../images/third-issue/7-viz.png';
+import img81 from '../images/third-issue/8-warning.png';
+import img82 from '../images/third-issue/8-nowarning.png';
+import img91 from '../images/third-issue/9-corrected.png';
+import img92 from '../images/third-issue/9-perplexing.png';
+import img93 from '../images/third-issue/9-warn1.png';
+import img94 from '../images/third-issue/9-warn2.png';
+import img95 from '../images/third-issue/9-warn3.png';
+import img96 from '../images/third-issue/9-warn4.png';
+import img97 from '../images/third-issue/9-warn5.png';
+import img98 from '../images/third-issue/9-warn6.png';
+import img101 from '../images/third-issue/10-green1.png';
+import img102 from '../images/third-issue/10-green2.png';
+import img103 from '../images/third-issue/10-red1.png';
+import img104 from '../images/third-issue/10-red2.png';
+import img105 from '../images/third-issue/10-red3.png';
+import img106 from '../images/third-issue/10-red4.png';
+import img107 from '../images/third-issue/10-red5.png';
+import img108 from '../images/third-issue/10-red6.png';
+import img109 from '../images/third-issue/10-red7.png';
+import img110 from '../images/third-issue/10-red8.png';
 
 export default function secondIssue() {
   const carousel = [
@@ -63,9 +85,7 @@ export default function secondIssue() {
 
           </div>
           <div className="col-5 offset-1">
-            <div className="row">
-              <Image src={img1} />
-            </div>
+            <div className="row" />
           </div>
         </div>
       </div>
@@ -311,6 +331,172 @@ export default function secondIssue() {
         </div>
       </div>
 
+      <div className="container-fluid bg-primary py-5  ">
+        <div className="row gradient py-5   ">
+          <div className="col-10 offset-1 py-3 ">
+            <Heading4 classi="pb-4" text="2 — Digital platforms and news sites can prolong the life cycle of recycled media and misleading claims" />
+            <Heading3 classi="pb-2 pt-5" text="The recycled photo shared by Macron indicates that platforms do not necessarily treat the same debunked content equally.  " />
+          </div>
+          <div className="col-4 offset-1">
+            <p>
+              The famous photo which Macron posted on Twitter and Facebook was taken by a photographer who passed away years before the fires.
+            </p>
+            <p>
+              In the peak period of the Amazon rainforest fires, the photo was then thematised and modified through the act of tweeting and retweeting. For instance, the copies of original images with minor modification and the screenshots of tagged images on other platforms have circulated on Twitter.
+            </p>
+            {' '}
+            <p>
+              {' '}
+              It was also memefied with an image of Moro, a character in the animation film, Princess Monoke.
+            </p>
+          </div>
+          <div className="col-4">
+            <p>
+              These images have also been brought together with hashtags like #fakenews which allude to misleading claims.
+            </p>
+            <p>
+              Beyond the 2019 Amazon fires, these images surfaced online in various contexts, from clean energy investment to peatland fires.
+              {' '}
+            </p>
+          </div>
+          <div className="col-2">
+            <Image src={img7} />
+          </div>
+          <div className="col-4 offset-1">
+            <p>
+              <span className="text-warning">Memefied image —</span>
+              {' '}
+              image with other visual elements overlaid or juxtaposed (mainly satirical content)
+            </p>
+            <p>
+              <span className="text-secondary">Copies of original image —</span>
+              {' '}
+              with minor modifications (cropped or stretched)
+            </p>
+            <p>
+              <span className="text-light">Screenshots of the image —</span>
+              {' '}
+              posted in other online spaces (Instagram stories and posts, tweets) with additional textual elements
+            </p>
+          </div>
+        </div>
+
+        <div className="row py-2" style={{ marginTop: '-35vh' }}>
+          <div className="col-10 offset-1">
+            <Image src={img71} />
+          </div>
+        </div>
+
+        <div className="row py-4">
+          <div className="col-5 offset-1">
+            <p>
+              When looking at how the image shared by Macron is treated on Facebook, one can observe that not all versions of the same image are treated equally. For example,
+              <span className="text-warning"> one widely circulating version of an image on Facebook has a warning from fact-checking organisations</span>
+              , whereas
+              {' '}
+              <span className="text-secondary"> the same image posted by Macron</span>
+              {' '}
+              contains no such warning.
+              {' '}
+            </p>
+            <p>This example indicates that a potentially misleading image can have a longer life despite verification labelling and fact-checking practices on digital platforms. Their policies and algorithms can therefore prolong the lifespan of potentially misleading content online.</p>
+          </div>
+          <div className="col-4">
+            <Image classi="border-top border-warning border-5 py-4" src={img81} />
+            <Image classi="border-top border-secondary border-5 pt-4" src={img82} />
+          </div>
+        </div>
+
+        <div className="row py-5">
+          <div className="col-5 offset-1 pb-5">
+            <Heading3 text="News articles" />
+            <p className="pt-3">
+              Statements and claims, including misleading ones, can also surface even if they are widely debunked online, especially when news articles continue to cite a misleading claim without correction.
+            </p>
+            <p>
+              As we looked into the media articles promoted  with the 20% oxygen claim on Twitter, a number of articles published by CNN, Cnet, Global News and Arab News have surfaced. All of
+              <span className="text-warning"> these articles treated the misleading claim as a confirmed fact</span>
+              , and did not add any corrections to the published stories.
+            </p>
+            <p>
+              <span className="text-secondary">Corrected</span>
+              {' '}
+              the statement after publication
+            </p>
+            <Image src={img91} />
+            <p className="text-end">link</p>
+            <p className="pt-3">
+              <span className="text-light">Perplexing</span>
+            </p>
+            <Image src={img92} />
+            <p className="text-end">link</p>
+          </div>
+          <div className="col-4 offset-1 pb-5">
+            <Image src={img93} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img94} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img95} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img96} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img97} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img98} />
+            <p className="text-end">link</p>
+          </div>
+
+          <div className="col-5 offset-1 pt-5">
+            <p>
+              CNN particularly stood out as their articles consistently supported the claim. When looking at the URLs embedded in all the media articles in our sample, there were 26 unique URLs directed to the CNN website. Among these URLs,
+              <span className="text-warning"> 8 stories explicitly promoted the misleading claim.</span>
+            </p>
+            <Image src={img101} />
+            <p className="text-end">link</p>
+            <Image src={img102} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img108} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img109} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img110} />
+            <p className="text-end">link</p>
+          </div>
+          <div className="col-4 offset-1 pt-5">
+            <Image src={img93} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img103} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img104} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img105} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img106} />
+            <p className="text-end">link</p>
+            <Image classi="pt-3" src={img107} />
+            <p className="text-end">link</p>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div className="container-fluid gradient text-white">
+        <div className="row py-5">
+          <div className="col-2 offset-1">
+            <p className="fw-bolder serif">Participate:</p>
+          </div>
+          <div className="col-3 offset-1">
+            🎤  — Add your voice at this link where we collect inputs about this issue story
+
+          </div>
+          <div className="col-3 offset-1">
+            ✏️ — Read the blog where we share new insights about this issue story
+          </div>
+        </div>
+      </div>
+
+      <NextPrev prev="Prev Issue Story" linkPrev="/second-issue" />
     </Layout>
   );
 }

@@ -422,7 +422,7 @@ export default function secondIssue() {
 
       <NextPrev
         next="Next Issue Story >"
-        linkNext="/"
+        linkNext="/third-issue"
         prev="Prev Issue Story"
         linkPrev="/first-issue"
       />
