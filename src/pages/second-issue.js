@@ -168,6 +168,7 @@ export default function secondIssue() {
           <div className="col-7 offset-1">
             <GraphQuote classi="py-5" emoticon="📉" text="Top 10 tweets per day for number of retweets" />
             <Image src={img5} />
+            <GraphQuote classi="py-5" emoticon="📉" text="Total amount of tweets in the selected time frame" />
             <div className="row py-4 justify-content-between">
               <div className="col-3"><Image src={img51} /></div>
               <div className="col-3"><Image src={img52} /></div>
