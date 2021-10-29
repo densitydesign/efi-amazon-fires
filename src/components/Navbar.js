@@ -41,7 +41,7 @@ export default function Navbar() {
                     <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="">Issue story 1</Link>
                   </li>
                   <li className="nav-item text-white py-3 border-bottom border-white">
-                    <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="">About</Link>
+                    <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="/about">About</Link>
                   </li>
                 </ul>
               </div>

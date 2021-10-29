@@ -18,6 +18,12 @@ export function Heading4({ text, classi }) {
   );
 }
 
+export function Heading5({ text, classi }) {
+  return (
+    <h5 className={`serif fw-bolder ${classi}`}>{text}</h5>
+  );
+}
+
 export function Quote({ text, classi }) {
   return (
     <h6 className={`serif fst-italic ${classi}`}>{text}</h6>
