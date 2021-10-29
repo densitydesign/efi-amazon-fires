@@ -35,10 +35,10 @@ export default function Navbar() {
                     <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="/first-issue">Issue story 1</Link>
                   </li>
                   <li className="nav-item py-3">
-                    <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="">Issue story 1</Link>
+                    <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="second-issue">Issue story 2</Link>
                   </li>
                   <li className="nav-item py-3 border-bottom border-white">
-                    <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="">Issue story 1</Link>
+                    <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="third-issue">Issue story 3</Link>
                   </li>
                   <li className="nav-item text-white py-3 border-bottom border-white">
                     <Link className="text-white text-decoration-none serif fw-bolder ps-2" to="/about">About</Link>
