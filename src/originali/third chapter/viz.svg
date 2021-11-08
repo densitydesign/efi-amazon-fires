@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 805 600" style="enable-background:new 0 0 805 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0000FC;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:none;stroke:#000000;}
+	.st3{font-family:'Helvetica';}
+	.st4{font-size:10px;}
+</style>
+<rect x="-56" y="-7.1" class="st0" width="932" height="654"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="402.5" y1="191.7864" x2="402.5" y2="951.4019">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.8"/>
+	<stop  offset="0.4598" style="stop-color:#FFFFFF;stop-opacity:4.307564e-02"/>
+	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+</linearGradient>
+<path class="st1" d="M10,97c29.1-33.4,58.1-66.7,87.2-66.7s58.1,127.7,87.2,179.9s58.1,102.7,87.2,133.2
+	c29.1,30.4,58.1,32.1,87.2,49.5s58.1,39.6,87.2,55.2c29.1,15.6,58.1,32.9,87.2,38.2c29.1,5.3,58.1,5.5,87.2,7.9
+	c29.1,2.4,58.1,5.2,87.2,6.8s58.1,2.1,87.2,2.7V524c-29.1,0-58.1,0-87.2,0s-58.1,0-87.2,0c-29.1,0-58.1,0-87.2,0
+	c-29.1,0-58.1,0-87.2,0s-58.1,0-87.2,0s-58.1,0-87.2,0c-29.1,0-58.1,0-87.2,0s-58.1,0-87.2,0s-58.1,0-87.2,0V97z"/>
+<path class="st2" d="M10.5,580.5h785"/>
+<g transform="translate(0.5,0)">
+	<line class="st2" x1="10" y1="580" x2="10" y2="586"/>
+	<text transform="matrix(1 0 0 1 -4.4556 596.1)" class="st3 st4">Sat 24</text>
+</g>
+<g transform="translate(87.72222222222221,0)">
+	<line class="st2" x1="10" y1="580" x2="10" y2="586"/>
+	<text transform="matrix(1 0 0 1 -5.8472 596.1)" class="st3 st4">Aug 25</text>
+</g>
+<g transform="translate(174.94444444444443,0)">
+	<line class="st2" x1="10" y1="580" x2="10" y2="586"/>
+	<text transform="matrix(1 0 0 1 -6.6772 596.1)" class="st3 st4">Mon 26</text>
+</g>
+<g transform="translate(262.16666666666663,0)">
+	<line class="st2" x1="10" y1="580" x2="10" y2="586"/>
+	<text transform="matrix(1 0 0 1 -5.3833 596.1)" class="st3 st4">Tue 27</text>
+</g>
+<g transform="translate(349.38888888888886,0)">
+	<line class="st2" x1="10" y1="580" x2="10" y2="586"/>
+	<text transform="matrix(1 0 0 1 -7.1436 596.1)" class="st3 st4">Wed 28</text>
+</g>
+<g transform="translate(436.61111111111114,0)">
+	<line class="st2" x1="10" y1="580" x2="10" y2="586"/>
+	<text transform="matrix(1 0 0 1 -5.5664 596.1)" class="st3 st4">Thu 29</text>
+</g>
+<g transform="translate(523.8333333333333,0)">
+	<line class="st2" x1="10" y1="580" x2="10" y2="586"/>
+	<text transform="matrix(1 0 0 1 -2.7808 596.1)" class="st3 st4">Fri 30</text>
+</g>
+<g transform="translate(611.0555555555555,0)">
+	<line class="st2" x1="10" y1="580" x2="10" y2="586"/>
+	<text transform="matrix(1 0 0 1 -4.4556 596.1)" class="st3 st4">Sat 31</text>
+</g>
+<g transform="translate(698.2777777777777,0)">
+	<line class="st2" x1="10" y1="580" x2="10" y2="586"/>
+	<text transform="matrix(1 0 0 1 -14.458 596.1)" class="st3 st4">September</text>
+</g>
+<g transform="translate(785.5,0)">
+	<line class="st2" x1="10" y1="580" x2="10" y2="586"/>
+	<text transform="matrix(1 0 0 1 -6.6772 596.1)" class="st3 st4">Mon 02</text>
+</g>
+</svg>
