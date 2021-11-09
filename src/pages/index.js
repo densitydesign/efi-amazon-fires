@@ -14,8 +14,8 @@ export default function Index() {
         <div className="row">
           <div className="col-12  px-0">
             <img src={img1} className="img-fluid " alt="..." />
-            <h1 className="position-absolute serif  " style={{ top: '15%', left: '10%' }}>Out of the Flames</h1>
-            <h3 className="position-absolute serif  " style={{ top: '25%', left: '10%' }}>Exploring online engagement around the 2019 Amazon rainforest fires</h3>
+            <h1 className="position-absolute serif  " style={{ top: '20%', left: '10%' }}>Out of the Flames</h1>
+            <h3 className="position-absolute serif  " style={{ top: '30%', left: '10%' }}>Exploring online engagement around the 2019 Amazon rainforest fires</h3>
           </div>
         </div>
       </div>
