@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import img1 from '../images/img1.png';
+import img1 from '../images/cover.png';
 import HomeIndex from '../components/HomeIndex';
 import { Heading4 } from '../components/Typography';
 
@@ -10,17 +10,17 @@ export default function Index() {
     }}
     >
 
-      <div className="container-fluid bg-primary first-section">
-        <div className="row align-items-center h-100">
-          <div className="col-10 offset-1 position-relative">
-            <img src={img1} className="img-fluid w-100" alt="..." />
-            <h1 className="position-absolute serif  " style={{ bottom: '15%', left: '10%' }}>Out of the Flames</h1>
-            <h3 className="position-absolute serif  " style={{ bottom: '10%', left: '10%' }}>Exploring online engagement around the 2019 Amazon rainforest fires</h3>
+      <div className="container-fluid bg-primary pb-5">
+        <div className="row">
+          <div className="col-12  px-0">
+            <img src={img1} className="img-fluid " alt="..." />
+            <h1 className="position-absolute serif  " style={{ top: '15%', left: '10%' }}>Out of the Flames</h1>
+            <h3 className="position-absolute serif  " style={{ top: '25%', left: '10%' }}>Exploring online engagement around the 2019 Amazon rainforest fires</h3>
           </div>
         </div>
       </div>
 
-      <div className="container-fluid bg-primary py-5">
+      <div className="container-fluid bg-primary py-3">
         <div className="row">
           <div className="col-2 offset-1">
             <Heading4 text="The Project" />
