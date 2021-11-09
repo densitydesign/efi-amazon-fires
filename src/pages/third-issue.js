@@ -1,4 +1,5 @@
 import { Link } from 'gatsby';
+import { useState } from 'react';
 import Layout from '../components/Layout';
 import {
   GraphQuote, Heading1, Heading3, Heading4, Quote,
@@ -6,7 +7,7 @@ import {
 
 import NextPrev from '../components/NextPrev';
 import Image from '../components/Image';
-import img1 from '../images/first-issue/1-intro@2x.png';
+import img1 from '../images/chap3.png';
 import img11 from '../images/third-issue/1-jaguar1.png';
 import img12 from '../images/third-issue/1-jaguar2.png';
 import img13 from '../images/third-issue/1-jaguar3.png';
@@ -57,6 +58,7 @@ import img109 from '../images/third-issue/10-red7.png';
 import img110 from '../images/third-issue/10-red8.png';
 
 export default function secondIssue() {
+  const [alert, setAlert] = useState(false);
   const carousel = [
     img21, img22, img23, img24, img25,
   ];
@@ -65,7 +67,14 @@ export default function secondIssue() {
       title: 'Fake images Issue',
     }}
     >
-      <div className="container-fluid bg-primary py-5 ">
+      <div className="container-fluid bg-primary pb-5 ">
+        <div className={`row bg-warning py-5 ${alert ? 'd-none' : ''}`}>
+          <div className="col-10 offset-1">
+            <p className="text-center">Content Warning</p>
+            <p className="text-center">This article contains images of burning/burnt animals and may not be suitable for some viewers.</p>
+            <p className="text-center pt-3"><button type="button" className="btn btn-primary text-white" onClick={() => setAlert(true)}>Accept</button></p>
+          </div>
+        </div>
         <div className="row">
           <div className="col-6 offset-1 py-4">
             <Heading1 text="Tracing the recycling of online materials" />
@@ -83,6 +92,9 @@ export default function secondIssue() {
               This issue story traces the life cycles of some of this content, and explores instances of recycled media and specific claims related to the Amazon rainforest fires over time.
             </p>
 
+          </div>
+          <div className="col-4 offset-1">
+            <Image src={img1} />
           </div>
           <div className="col-5 offset-1">
             <div className="row" />
