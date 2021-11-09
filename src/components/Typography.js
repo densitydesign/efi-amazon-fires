@@ -26,15 +26,19 @@ export function Heading5({ text, classi }) {
 
 export function Quote({ text, classi }) {
   return (
-    <h6 className={` ${classi}`} style={{ lineEight: '1.4rem' }}>{text}</h6>
+    <h6 className={` ${classi}`} style={{ lineHeight: '1.4rem' }}>{text}</h6>
   );
 }
 
 export function GraphQuote({ emoticon, text, classi }) {
   return (
-    <h6 className={`serif  ${classi}`}>
+    <h6 className={`serif  ${classi}`} style={{ lineHeight: '1.5rem' }}>
       {emoticon}
-      -
+      {' '}
+
+      —
+      {' '}
+
       {text}
     </h6>
   );

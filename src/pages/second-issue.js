@@ -43,7 +43,7 @@ export default function secondIssue() {
 
       <div className="container-fluid bg-primary py-5 ">
         <div className="row">
-          <div className="col-10 offset-1 py-4">
+          <div className="col-6 offset-1 py-4">
             <Heading1 text="Exploring the  role of science online beneath the surface" />
           </div>
         </div>
@@ -67,9 +67,8 @@ export default function secondIssue() {
                 <Image src={img1} />
               </div>
               <div className="col-6">
-                <Quote text="Some scientists became the main sources and reference points in social media debates and journalistic articles, while many others did not. Conversation between scientists also took place outside of the main engagement.
-"
-                />
+                <p className="pb-2 serif">Some scientists became the main sources and reference points in social media debates and journalistic articles, while many others did not. Conversation between scientists also took place outside of the main engagement.</p>
+
               </div>
             </div>
           </div>
@@ -77,13 +76,13 @@ export default function secondIssue() {
       </div>
 
       <div className="container-fluid bg-primary py-5  ">
-        <div className="row gradient py-5 align-items-center">
-          <div className="col-10 offset-1 py-3 ">
+        <div className="row gradient py-5 align-items-top">
+          <div className="col-10 offset-1 pb-3 ">
             <Heading4 classi="pb-4" text="1 — Absence and marginalisation of science on Twitter" />
           </div>
 
-          <div className="col-6 offset-1 py-2">
-            <GraphQuote classi="py-5" emoticon="📉" text="Top hashtags overtime, resized by number of tweets. Green represents some of the top hashtags with a high number of tweets, while red indicates science-related hashtags with lower number of tweets." />
+          <div className="col-6 offset-1 pb-2">
+            <GraphQuote classi="pb-5" emoticon="📉" text="Top hashtags overtime, resized by number of tweets. Green represents some of the top hashtags with a high number of tweets, while red indicates science-related hashtags with lower number of tweets." />
             <Image src={img2} />
           </div>
           <div className="col-4  py-2 ps-5">
@@ -164,7 +163,7 @@ export default function secondIssue() {
           </div>
 
         </div>
-        <div className="row align-items-center pb-5">
+        <div className="row align-items-top pb-5">
           <div className="col-7 offset-1">
             <GraphQuote classi="py-5" emoticon="📉" text="Top 10 tweets per day for number of retweets" />
             <Image src={img5} />
@@ -176,8 +175,8 @@ export default function secondIssue() {
 
             </div>
           </div>
-          <div className="col-3">
-            <p>
+          <div className="col-3 pt-5">
+            <p className="pt-5">
               <span className="text-secondary">A tweet by Luca Parmitano (@astro_luca), an Italian astronaut</span>
               {' '}
               of the European Space Agency, emerged on the top retweet list on 29-30 August 2019, receiving more than 850 retweets. His tweet included aerial images of the Amazon fires.
@@ -233,7 +232,11 @@ export default function secondIssue() {
           </div>
           <div className="col-4 offset-1 pt-5">
             <p>
-              <span className="text-indigo">@AnaPDAguiar</span>
+              <span className="text-indigo">
+                @AnaPDAguiar
+
+              </span>
+              {' '}
               a researcher closely positioned to @Erika_Berenguer tweeted with scientific insights on the increase in the number of fires in the Amazon. It stated that the increase of fires in 2019 has taken place in the period after the deforestation control actions have been put in place. It points out a simple comparison without context can lead to a wrong conclusion.
             </p>
             <Image classi="pt-3" src={img62} />
@@ -241,6 +244,7 @@ export default function secondIssue() {
           <div className="col-4 offset-2 pt-5">
             <p>
               <span className="text-light">@Erika_Berenguer</span>
+              {' '}
               was one of the few scientists to surface in our data collections.  With a background in tropical forest ecology, the researcher is currently with Oxford University and Lancaster. The top tweet mentioning her account directed to a tweet with a video of a BBC Newsnight interview.
             </p>
             <Image classi="pt-3" src={img1} />
