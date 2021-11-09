@@ -67,7 +67,7 @@ export default function secondIssue() {
     >
       <div className="container-fluid bg-primary py-5 ">
         <div className="row">
-          <div className="col-10 offset-1 py-4">
+          <div className="col-6 offset-1 py-4">
             <Heading1 text="Tracing the recycling of online materials" />
           </div>
         </div>
@@ -91,14 +91,14 @@ export default function secondIssue() {
       </div>
 
       <div className="container-fluid bg-primary py-5  ">
-        <div className="row gradient py-5 align-items-center">
+        <div className="row gradient py-5 align-items-top">
           <div className="col-10 offset-1 py-3 ">
             <Heading4 classi="pb-4" text="1 — Generic images from past events are recycled and repurposed to create public awareness " />
           </div>
           <div className="col-5 offset-1">
             <p>We encounter a wide variety of generic images in the media we consume everyday. In our analysis, various types of images have been collected showing fires and animals from Australia, Africa and Asia.</p>
           </div>
-          <div className="col-8 offset-1 pt-5">
+          <div className="col-6 offset-1 pt-5">
             <Heading3 classi="pb-3" text="Animal photos have been mobilised to share concerns around the Amazon rainforest fires" />
           </div>
           <div className="col-5 offset-1">
