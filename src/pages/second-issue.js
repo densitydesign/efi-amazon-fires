@@ -412,15 +412,22 @@ export default function secondIssue() {
 
       <div className="container-fluid gradient text-white">
         <div className="row py-5">
-          <div className="col-2 offset-1">
+          <div className="col-1 offset-1">
             <p className="fw-bolder serif">Participate:</p>
           </div>
-          <div className="col-3 offset-1">
+          <div className="col-2 offset-1">
             🎤  — Add your voice at this link where we collect inputs about this issue story
 
           </div>
-          <div className="col-3 offset-1">
+          <div className="col-2 offset-1">
             ✏️ — Read the blog where we share new insights about this issue story
+          </div>
+          <div className="col-2 offset-1">
+            🔎 — Explore the interactive network
+            {' '}
+            <br />
+            {' '}
+            🔎 — Take a Look to the High Res Viz
           </div>
         </div>
       </div>
