@@ -26,7 +26,7 @@ export function Heading5({ text, classi }) {
 
 export function Quote({ text, classi }) {
   return (
-    <h6 className={`serif fst-italic ${classi}`}>{text}</h6>
+    <h6 className={` ${classi}`} style={{ lineEight: '1.4rem' }}>{text}</h6>
   );
 }
 
