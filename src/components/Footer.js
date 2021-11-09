@@ -5,9 +5,15 @@ import den from '../images/footer/density.png';
 
 export default function Footer() {
   const logo = [
-    { src: efi },
-    { src: pdl },
-    { src: den },
+    {
+      src: efi,
+      link: 'https://efi.int/ ',
+    },
+    {
+      src: pdl,
+      link: 'https://publicdatalab.org/ ',
+    },
+    { src: den, link: 'http://densitydesign.org/' },
   ];
   return (
     <div className="container-fluid gradient">
@@ -20,7 +26,10 @@ export default function Footer() {
                 src, link,
               }, index) => (
                 <div className="col " key={index}>
-                  <img src={src} className="img-fluid " style={{ height: '80px' }} alt="..." />
+                  <a href={link} target="_blank" rel="noreferrer">
+                    {' '}
+                    <img src={src} className="img-fluid " style={{ height: '80px' }} alt="..." />
+                  </a>
                 </div>
               ))
             }
