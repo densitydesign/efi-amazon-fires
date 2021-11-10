@@ -36,8 +36,8 @@ export default function Footer() {
 
           </div>
         </div>
-        <div className="col-3 ">
-          <p>e standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de </p>
+        <div className="col-4 ">
+          <p>This project is part of the “New Ways for Forest Governance: connecting science, policy and society (NEWGO!)”, funded by the German Federal Ministry of Food and Agriculture (BMEL).</p>
         </div>
       </div>
     </div>
