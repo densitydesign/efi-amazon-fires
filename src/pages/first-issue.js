@@ -38,7 +38,7 @@ export default function firstIssue() {
               Looking at how the hashtags associated with Amazon fires on Twitter relate to each other*, one can observe different voices, concerns and positioning around a wide variety of forest governance issues, involving international and national political, business and other public figures.
             </p>
             <p className="py-2 serif">
-              This issue story depicts a selection of insights collected through a series of conversations with forest governance experts and journalists who followed the event closely in the peak period when the event became a global issue.
+              This issue story depicts a selection of insights collected through a series of conversations with forest governance experts and journalists, many of whom followed the event closely during the peak period.  when the event became a global issue.
             </p>
 
           </div>

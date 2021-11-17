@@ -25,7 +25,7 @@ export default function Footer() {
               logo.map(({
                 src, link,
               }, index) => (
-                <div className="col " key={index}>
+                <div className="col d-flex justify-content-center" key={index}>
                   <a href={link} target="_blank" rel="noreferrer">
                     {' '}
                     <img src={src} className="img-fluid " style={{ height: '80px' }} alt="..." />
