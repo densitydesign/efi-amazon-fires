@@ -32,7 +32,7 @@ export default function firstIssue() {
         <div className="row align-items-top">
           <div className="col-4 offset-1">
             <p className="pb-2 serif">
-              Forest governance deals with a wide range of issues from deforestation to global trade, from land use to sustainable financing. We were curious to know which forest governance issues surfaced on social media in relation to the 2019 Amazon forest fires, which became a global talking point. We looked at how these issues surfaced in relation to the fires.
+              Forest governance deals with a wide range of issues from deforestation to global trade, from land use to sustainable financing. We were curious to know which forest governance issues surfaced on social media in relation to the 2019 Amazon forest fires, and which became a global talking point. We looked at how these issues surfaced in relation to the fires.
             </p>
             <p className="py-2 serif">
               Looking at how the hashtags associated with Amazon fires on Twitter relate to each other*, one can observe different voices, concerns and positioning around a wide variety of forest governance issues, involving international and national political, business and other public figures.
@@ -86,7 +86,7 @@ export default function firstIssue() {
               , referred to as the ‘war of words’ by The Guardian.
             </p>
             <p>When the Amazon rainforest fires became international news, Macron tweeted the need to address the Amazon rainforest fires at the G7 meeting on 22 August 2019, receiving support from the Canadian Prime Minister Trudeau. Bolsonaro then criticised Macron for using the Brazilian issue for personal political gain, saying that suggesting a discussion of the issue without Brazil's involvement showed a colonial mentality in the 21st century. </p>
-            <p>At the same time, Bolsonaro supposedly mocked the French first lady in a Facebook post, to which Macron responded that this was “disrespectful” during the G7 press conference. Brazil then rejectsed $20 million in aid offered by G7 countries, followed by twitter exchanges between the former US President Trump and Bolsonaro showing support to each other. </p>
+            <p>At the same time, Bolsonaro supposedly mocked the French first lady in a Facebook post, to which Macron responded that this was “disrespectful” during the G7 press conference. Brazil then rejected $20 million in aid offered by G7 countries, followed by Twitter exchanges between the former US President Trump and Bolsonaro showing support to each other. </p>
           </div>
         </div>
         <div className="row pt-2 pb-3 align-items-center">
@@ -105,7 +105,7 @@ export default function firstIssue() {
               While the hashtags
               <span className="text-secondary"> critical towards Macron and showing support to Bolsonaro</span>
               {' '}
-              were scattered across the networks, not forming any clusters of their own, the hashtags
+              were scattered across the network, not forming any clusters of their own, the hashtags
               {' '}
               <span className="text-warning">against Bolsonaro</span>
               {' '}
@@ -138,7 +138,7 @@ export default function firstIssue() {
         <div className="row py-5">
           <div className="row">
             <div className="col-5 offset-1">
-              <Heading3 classi="pb-3" text="Left-leaning voices against Bolsonaro are clustered and more prominent" />
+              <Heading3 classi="pb-3" text="The hashtags against Bolsonaro portray voices and concerns from the State of Pará to Rio de Janeiro and Peru" />
               <p>
                 When zooming into
                 {' '}
@@ -193,7 +193,7 @@ export default function firstIssue() {
               <p className="py-3">
                 Another pro-Bolsonaro hashtag,
                 {' '}
-                <span className="text-secondary">  #vivabolsonaro </span>
+                <span className="text-secondary">  #vivabolsonaro</span>
                 , was used in a tweet by a columnist of Breitbart, an American far-right news site. The tweet included a link to the Breitbart’s article “Delingpole: Amazon Fires – A Big, Fat Nothingburger of a #FakeNews Scare Story”. The article criticised the news from the mainstream media as “fake news” and twisted the narrative to portray alternative ways to interpret the scientific insights. Interestingly, to do so, the article used a mix of references ranging from tweets from suspended accounts to those from scientists.
               </p>
             </div>
@@ -253,7 +253,13 @@ export default function firstIssue() {
               At the centre bottom, one can also identify a cluster where
               <span className="text-warning"> #financing, #highway, and #transport</span>
               {' '}
-              appear next to #responsible.These hashtags were brought together with #farmers, indicating the link with agricultural activities. #responsible was also brought together with #mercosur, a trade bloc.
+              appear next to
+              {' '}
+              <span className="text-warning">#responsible</span>
+              . These hashtags were brought together with
+              {' '}
+              <span className="text-warning">#farmers</span>
+              , indicating the link with agricultural activities. #responsible was also brought together with #mercosur, a trade bloc.
             </p>
 
             {/* <Image classi="border-secondary border-1" src={img91} /> */}
@@ -273,15 +279,16 @@ export default function firstIssue() {
           <div className="col-5 offset-1 mmb-n5">
             <Heading3 classi="pb-3" text="Linking deforestation with contested agricultural practices" />
             <p className="py-3">
-              Hashtags such as#gmo, #glyphosate, and #glifosato are associated  with #climatechange, #bolsonaro and #brazil. A company name, #monsanto and #boycott were brought together with #gmo and #glyphosate. In the case of #gmo, the following hashtags have been tweeted together: #deforestation, #plantatree, #forestfires, #bees, #agribusiness, #soybeans, #reforestation, and #protest.
+              Hashtags such as #gmo, #glyphosate, and #glifosato are associated  with #climatechange, #bolsonaro and #brazil. A company name, #monsanto and #boycott were brought together with #gmo and #glyphosate. In the case of #gmo, the following hashtags have been tweeted together: #deforestation, #plantatree, #forestfires, #bees, #agribusiness, #soybeans, #reforestation, and #protest.
             </p>
           </div>
           <div className="col-10 offset-1" style={{ marginTop: '-30vh' }}>
             <Image src={img10} />
           </div>
           <div className="col-5 offset-1" style={{ marginTop: '-10vh' }}>
-            <p>There was also a cluster referring to crime, misconduct and conflict,, including hashtags such as #warcrime, #corruption, #pollution, #tradewar, #landgrabbing, sitting closely with #leather, #europe, and #cop24. </p>
-            <p>These hashtags (#gmo, #glyphosate, and #glifosato) were positioned closely with #crimeagainsthumanity and #stopdeforestation. For instance, #crimeagainsthumanity was brought together with #ecocide, #GOP (the US Republican party), #environment and hashtags against Bolsonaro Salles.</p>
+
+            <p>These hashtags (#gmo, #glyphosate, and #glifosato) were positioned closely with #crimeagainsthumanity and #stopdeforestation. For instance, #crimeagainsthumanity was brought together with #ecocide, #GOP (the US Republican party), #environment and hashtags against Bolsonaro and Salles.</p>
+            <p>There was also a cluster referring to crime,misconduct and conflict, including hashtags such as #warcrime, #corruption, #pollution, #tradewar, #landgrabbing, sitting closely with #leather, #europe, and #cop24. </p>
           </div>
         </div>
 

@@ -86,7 +86,7 @@ export default function secondIssue() {
               In 2019, the Amazon rainforest fires became the centre of attention on social media as political actors, celebrities, and athletes including the French President Macron, Leonardo DiCaprio and Cristiano Ronaldo shared their voices, positions and concerns.
             </p>
             <p className="py-2 serif">
-              While these actors raised public awareness, they also promoted photos and videos from unrelated past events. These public figures also referred to misleading claims, such as “20% of the world’s oxygen is produced in the Amazon”. While the news media and science communities have contested and debunked these unrelated images and videos online, the contents can be repurposed in different contexts, and can continue to have a different life online.
+              While these actors raised public awareness, they also promoted photos and videos from unrelated past events. These public figures also referred to misleading claims, such as “20% of the world’s oxygen is produced in the Amazon”. While the news media and science communities have contested and debunked these unrelated images and videos online, the contents can be repurposed in different contexts, and can continue to have a life online.
             </p>
             <p className="py-2 serif">
               This issue story traces the life cycles of some of this content, and explores instances of recycled media and specific claims related to the Amazon rainforest fires over time.

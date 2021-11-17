@@ -50,7 +50,7 @@ export default function secondIssue() {
         <div className="row align-items-center">
           <div className="col-4 offset-1">
             <p className="pb-2 serif">
-              When looking at the role of science in online engagement around the 2019 Amazon rainforest fires, we can see multiple ways where science and scientific perspectives were mobilised. For example, it is possible to observe specific scientific voices receiving a significant amount of visibility on social media and media articles.
+              When looking at the role of science in online engagement around the 2019 Amazon rainforest fires, we can see multiple ways in which science and scientific perspectives were mobilised. For example, it is possible to observe specific scientific voices receiving a significant amount of visibility on social media and media articles.
             </p>
             <p className="py-2 serif">
               Yet, in many instances especially on social media, scientific voices were almost absent, marginal, present at the periphery or only after the “peak”.
@@ -67,7 +67,9 @@ export default function secondIssue() {
                 <Image src={img1} />
               </div>
               <div className="col-6">
-                <p className="pb-2 serif">Some scientists became the main sources and reference points in social media debates and journalistic articles, while many others did not. Conversation between scientists also took place outside of the main engagement.</p>
+                <p className="pb-2 serif">
+                  Some scientists became the main sources and reference points in social media debates and journalistic articles, while many others did not. Conversation between scientists also took place but received low visibility and engagement, as many of them did not use the hashtags including those related to the Amazon fires.
+                </p>
 
               </div>
             </div>
@@ -91,7 +93,7 @@ export default function secondIssue() {
               The top hashtags during the peak of the event were mostly calls for action
               {' '}
               <span className="text-secondary"> (#prayforamazonia, #actfortheamazon, #savetheamazon)</span>
-              , followed by Brazilian political perspectives.
+              , followed by Brazilian political perspectives. This is perhaps unsurprising given that many of the hashtags representing calls for action were used as keywords for building our tweet corpus.
             </p>
             <p>
               Only a handful
@@ -113,7 +115,7 @@ export default function secondIssue() {
             <p>
               {' '}
               <span className="text-warning"> #sentinel2 (329 tweets)</span>
-              : the majority of tweets referred to this tweet by @CopernicusEU, the EU Earth Observation Programme (1).  It called for more attention on the fires in Africa which were happening simultaneously. Notably, #africafires emerged in the top hashtags in the peak period of the Amazon rainforest fires.
+              : the majority of tweets referred to this tweet by @CopernicusEU, the EU Earth Observation Programme.  It called for more attention to the fires in Africa which were happening simultaneously. Notably, #africafires emerged in the top hashtags in the peak period of the Amazon rainforest fires.
             </p>
             <Image src={img4} />
           </div>
@@ -121,7 +123,7 @@ export default function secondIssue() {
 
             <p>
               <span className="text-light">#nasa (323 tweets)</span>
-              : Top tweets with this hashtag referred to NASA’s scientist Douglas Morton,  with his interview on Russia Today in Spanish (3). Another tweet was an endorsement for Douglas Morton by another academic (3).
+              : Top tweets with this hashtag referred to NASA’s scientist Douglas Morton,  with his interview on Russia Today in Spanish. Another tweet was an endorsement for Douglas Morton by another academic.
               {' '}
             </p>
             <Image src={img41} />
@@ -129,7 +131,7 @@ export default function secondIssue() {
           <div className="col-3">
             <p>
               <span className="text-indigo">#unitedbehindscience (215 tweets)</span>
-              : The majority of tweets quoted the tweet by @borisherrmann, a German offshore sailor and skipper of Team Malizia (a zero-carbon boat on which Greta Thunberg was sailing to New York at the time) (3). He tweeted a GIF of a live map with the hashtag #amazonfires. The hashtag #malizia also appeared on the top hashtag list.
+              : The majority of tweets quoted the tweet by @borisherrmann, a German offshore sailor and skipper of Team Malizia (a zero-carbon boat on which Greta Thunberg was sailing to New York at the time). He tweeted a GIF of a live map with the hashtag #amazonfires. The hashtag #malizia also appeared on the top hashtag list.
             </p>
             <Image src={img43} />
 
@@ -138,7 +140,7 @@ export default function secondIssue() {
           <div className="col-3 offset-1 pt-4">
             <p>
               <span className="text-secondary">#sciencematters (217 tweets)</span>
-              : the majority of tweets with this hashtag promoted a tweet by @DrGJackBrown, a physician who has frequently appeared on CNN (2).
+              : the majority of tweets with this hashtag promoted a tweet by @DrGJackBrown, a physician who has frequently appeared on CNN.
               <p />
             </p>
             <Image src={img42} />
@@ -150,7 +152,7 @@ export default function secondIssue() {
             <Heading3 classi="pb-3" text="Scientific voices emerge at the top only after the spike " />
           </div>
           <div className="col-6">
-            Scientific voices gathered visibility only after the spike when the number of tweets started to decrease in the peak period between 24 August to 2 September 2019. . As shown below, a few science-related tweets appeared at the top as the overall number of retweets slowed down. These tweets were from the users claiming to have a scientific or research background, namely
+            Scientific voices gathered visibility only after the spike when the number of tweets started to decrease in the peak period. . As shown below, a few science-related tweets appeared at the top as the overall number of retweets slowed down. These tweets were from the users claiming to have a scientific or research background, namely
             {' '}
             <span className="text-secondary"> @astro_luca (astronaut)</span>
             ,
@@ -233,11 +235,11 @@ export default function secondIssue() {
           <div className="col-4 offset-1 pt-5">
             <p>
               <span className="text-indigo">
-                @AnaPDAguiar
+                @AnaPDAguiar,
 
               </span>
               {' '}
-              a researcher closely positioned to @Erika_Berenguer tweeted with scientific insights on the increase in the number of fires in the Amazon. It stated that the increase of fires in 2019 has taken place in the period after the deforestation control actions have been put in place. It points out a simple comparison without context can lead to a wrong conclusion.
+              a researcher closely positioned to @Erika_Berenguer, tweeted with scientific insights on the increase in the number of fires in the Amazon. It stated that the increase of fires in 2019 has taken place in the period after the deforestation control actions have been put in place. It points out a simple comparison without context can lead to a wrong conclusion.
             </p>
             <Image classi="pt-3" src={img62} />
           </div>
@@ -364,7 +366,7 @@ export default function secondIssue() {
           <div className="col-5">
             <p>
               Another Forbes article dedicated more than half of the total source
-              <span className="text-warning">references to Jonathan Foley</span>
+              <span className="text-warning"> references to Jonathan Foley</span>
               {' '}
               , a climate and environmental scientist and the executive director of Project Drawdown
             </p>
@@ -389,12 +391,10 @@ export default function secondIssue() {
           <div className="col-4 offset-1 py-5">
             <p>
 
-              Foley appeared in two other articles
-
-              ,
+              Foley appeared in two other articles,
               {' '}
-              <span className="text-indigo">including a debunking piece published on  National Geographic</span>
-              .h The story referred to him as one of the scientists to criticise the misleading 20% oxygen claim, and included the link to his tweet.
+              <span className="text-indigo">including a debunking piece published on  National Geographic. </span>
+              The story referred to him as one of the scientists to criticise the misleading 20% oxygen claim, and included the link to his tweet.
             </p>
           </div>
 
