@@ -166,33 +166,42 @@ export default function secondIssue() {
 
         </div>
         <div className="row align-items-top pb-5">
-          <div className="col-7 offset-1">
+          <div className="col-10 offset-1">
             <GraphQuote classi="py-5" emoticon="📉" text="Top 10 tweets per day for number of retweets" />
             <Image src={img5} />
             <GraphQuote classi="py-5" emoticon="📉" text="Total amount of tweets in the selected time frame" />
+
+          </div>
+          <div className="col-10 offset-1">
             <div className="row py-4 justify-content-between">
-              <div className="col-3"><Image src={img51} /></div>
-              <div className="col-3"><Image src={img52} /></div>
-              <div className="col-3"><Image src={img53} /></div>
+              <div className="col-4">
+                <Image src={img51} />
+                <p className="pt-2">
+                  <span className="text-secondary">A tweet by Luca Parmitano (@astro_luca), an Italian astronaut</span>
+                  {' '}
+                  of the European Space Agency, emerged on the top retweet list on 29-30 August 2019, receiving more than 850 retweets. His tweet included aerial images of the Amazon fires.
+                </p>
+              </div>
+              <div className="col-4">
+                <Image src={img52} />
+                {' '}
+                <p className="pt-2">
+                  <span className="text-warning">A tweet by @ProfStrachan, the most active and influential account</span>
+                  {' '}
+                  based on the number of tweets and mentions over the 10-day period, appeared at the top once the peak started to cease. One of his tweets referred to a Guardian article featuring the executive secretary of the UN convention on biological diversity.
+                </p>
+              </div>
+              <div className="col-4">
+                <Image src={img53} />
+                <p className="pt-2">
+                  <span className="text-indigo">Another tweet from a science-related account that appeared after the peak period was from @BiologistDan</span>
+                  , an account claiming to be a biologist. The tweet points out the link between cattle farming and the fires.
+                </p>
+              </div>
 
             </div>
           </div>
-          <div className="col-3 pt-5">
-            <p className="pt-5">
-              <span className="text-secondary">A tweet by Luca Parmitano (@astro_luca), an Italian astronaut</span>
-              {' '}
-              of the European Space Agency, emerged on the top retweet list on 29-30 August 2019, receiving more than 850 retweets. His tweet included aerial images of the Amazon fires.
-            </p>
-            <p>
-              <span className="text-warning">A tweet by @ProfStrachan, the most active and influential account</span>
-              {' '}
-              based on the number of tweets and mentions over the 10-day period, appeared at the top once the peak started to cease. One of his tweets referred to a Guardian article featuring the executive secretary of the UN convention on biological diversity.
-            </p>
-            <p>
-              <span className="text-indigo">Another tweet from a science-related account that appeared after the peak period was from @BiologistDan</span>
-              , an account claiming to be a biologist. The tweet points out the link between cattle farming and the fires.
-            </p>
-          </div>
+
         </div>
         <div className="row py-5">
           <div className="col-6 offset-1" style={{ marginBottom: '-2vh' }}>
