@@ -143,7 +143,7 @@ export default function firstIssue() {
                 When zooming into
                 {' '}
                 <span className="text-warning">#forabolsonaro</span>
-                , one of the most popular hashtags against Bolsonaro with over 2300 tweets, the top tweet was a tweet by Dilma Bolada, a fictional character who became a social media influencer  during  the terms of Dilma Rousseff, the former Brazilian president.. With 1.1 million followers, the account called for protests  in various cities in Brazil. Another tweet posted a video claiming to show the fires reaching a residential street in the state of Para, one of the Brazilian states with  an increasing deforestation rate. There was also a tweet with a video of protests at the Brazilian embassy in Peru, using hashtags that criticise Bolsonaro and Salles, the former Brazilian Environment Minister.
+                , one of the most popular hashtags against Bolsonaro with over 2300 tweets, the top tweet was a tweet by Dilma Bolada, a fictional character who became a social media influencer  during  the terms of Dilma Rousseff, the former Brazilian president. With 1.1 million followers, the account called for protests  in various cities in Brazil. Another tweet posted a video claiming to show the fires reaching a residential street in the state of Para, one of the Brazilian states with  an increasing deforestation rate. There was also a tweet with a video of protests at the Brazilian embassy in Peru, using hashtags that criticise Bolsonaro and Salles, the former Brazilian Environment Minister.
               </p>
             </div>
             <div className="col-3 offset-2">
@@ -178,7 +178,7 @@ export default function firstIssue() {
                 When zooming into pro-Bolsonaro hashtags it is possible to identify tweets from pro-Bolsonaro accounts, many of which are suspended on Twitter. For instance,
                 <span className="text-secondary"> #MacronLiar</span>
                 {' '}
-                was used to criticise the NGOs presence in the Amazon. The narrative corresponds to Bolsonaro’s statement on 21 August 2019 accusing them of setting the fires. .
+                was used to criticise the NGOs presence in the Amazon. The narrative corresponds to Bolsonaro’s statement on 21 August 2019 accusing them of setting the fires.
               </p>
             </div>
             <div className="col-3 offset-2">
@@ -228,7 +228,7 @@ export default function firstIssue() {
                 including #stopdeforestation, #amazondeforestation, #defunddeforestation.
               </span>
               {' '}
-              A number of hashtags also referred to consumer practices around meat or beef, such as #gowithoutbeef, #govegan, and #stopeatingmeat..
+              A number of hashtags also referred to consumer practices around meat or beef, such as #gowithoutbeef, #govegan, and #stopeatingmeat.
             </p>
           </div>
           <div className="col-5">
@@ -321,7 +321,7 @@ export default function firstIssue() {
             ✏️ — Read the blog where we share new insights about this issue story
           </div>
           <div className="col-2 offset-1">
-            🔎 — Explore the interactive network
+            <a href="https://medialab.github.io/minivan/#/explorer?bundle=https:%2F%2Fraw.githubusercontent.com%2Ffedericopozzi%2Fefi-amazon-fires%2Fmain%2Fsrc%2Fvisualisations%2FBUNDLE%2520-%2520Amazon%2520Fires%2520co-hashtag%2520network.json%3Ftoken%3DABXT7KIDA37AD6LJIJMUFYLBU5CV2" target="_blank" rel="noreferrer" className="text-white text-decoration-none">🔎 — Explore the interactive network</a>
           </div>
         </div>
       </div>

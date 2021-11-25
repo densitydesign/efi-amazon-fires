@@ -97,7 +97,18 @@ export default function secondIssue() {
             </p>
             <p>
               Only a handful
-              <span className="text-warning"> science-related hashtags (i.e. #sciencematters, #sentinel2, #nasa, #unitebehindthescience)</span>
+              science-related hashtags (i.e.
+              {' '}
+              <span className="text-secondary">#sciencematters</span>
+              ,
+              <span className="text-warning"> #sentinel2</span>
+              ,
+              {' '}
+              <span className="text-light">#nasa</span>
+              ,
+              {' '}
+              <span className="text-indigo">#unitebehindthescience</span>
+              )
               {' '}
               emerged in the top 100 hashtags.
             </p>
@@ -436,7 +447,10 @@ export default function secondIssue() {
             {' '}
             <br />
             {' '}
-            🔎 — Take a Look to the High Res Viz
+            <a href="../originali/second chapter/top#perday/Top100HashtagRankflow.pdf">
+              {' '}
+              🔎 — Take a Look to the High Res Viz
+            </a>
           </div>
         </div>
       </div>
