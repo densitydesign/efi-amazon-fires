@@ -447,7 +447,7 @@ export default function secondIssue() {
             {' '}
             <br />
             {' '}
-            <a href="../originali/second chapter/top#perday/Top100HashtagRankflow.pdf">
+            <a href="" target="_blank" rel="noreferrer" className="text-white text-decoration-none">
               {' '}
               🔎 — Take a Look to the High Res Viz
             </a>
