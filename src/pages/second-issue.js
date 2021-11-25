@@ -447,7 +447,7 @@ export default function secondIssue() {
             {' '}
             <br />
             {' '}
-            <a href="" target="_blank" rel="noreferrer" className="text-white text-decoration-none">
+            <a href="https://drive.google.com/drive/folders/11aCuSVZt8nJ4wTho4pTkosjZkBzcg0jH?usp=sharing" target="_blank" rel="noreferrer" className="text-white text-decoration-none">
               {' '}
               🔎 — Take a Look to the High Res Viz
             </a>
