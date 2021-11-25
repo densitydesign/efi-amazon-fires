@@ -443,8 +443,10 @@ export default function secondIssue() {
             ✏️ — Read the blog where we share new insights about this issue story
           </div>
           <div className="col-2 offset-1">
-            🔎 — Explore the interactive network
-            {' '}
+            <a href="https://medialab.github.io/minivan/#/explorer?bundle=https:%2F%2Fraw.githubusercontent.com%2Ffedericopozzi%2Fefi-amazon-fires%2Fmain%2Fsrc%2Fvisualisations%2FBUNDLE%2520-%2520Network%2520of%2520users%2520mentioning%2520each%2520others%2520on%2520Twitter%2520-%2520Amazon%2520Fires.json%3Ftoken%3DABXT7KN63M5RBUNHFOOXFILBVDZSK" target="_blank" rel="noreferrer" className="text-white text-decoration-none">
+              🔎 — Explore the interactive network
+              {' '}
+            </a>
             <br />
             {' '}
             <a href="https://drive.google.com/drive/folders/11aCuSVZt8nJ4wTho4pTkosjZkBzcg0jH?usp=sharing" target="_blank" rel="noreferrer" className="text-white text-decoration-none">
