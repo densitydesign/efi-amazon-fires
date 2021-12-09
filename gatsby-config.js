@@ -10,6 +10,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-svgr',
     'gatsby-transformer-sharp', // Needed for dynamic images],
+    'gatsby-plugin-anchor-links',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

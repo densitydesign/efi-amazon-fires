@@ -10,7 +10,7 @@ export default function Index() {
     >
       <div className="container-fluid bg-primary ">
         <div className="row ">
-          <div className="col-10 offset-1">
+          <div className="col-10 offset-1" id="background">
             <h1 className=" serif fw-bolder pt-5">Background</h1>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function Index() {
       </div>
 
       <div className="container-fluid bg-primary ">
-        <div className="row ">
+        <div className="row " id="ResearchMethods">
           <div className="col-10 offset-1">
             <h1 className=" serif fw-bolder pt-5">Research Methods</h1>
           </div>
@@ -74,7 +74,7 @@ export default function Index() {
       </div>
 
       <div className="container-fluid bg-primary ">
-        <div className="row ">
+        <div className="row " id="resources">
           <div className="col-10 offset-1">
             <h1 className=" serif fw-bolder pt-5">Resources</h1>
           </div>
@@ -98,8 +98,7 @@ export default function Index() {
           </div>
           <div className="col-6 offset-1">
             <p>
-              link
-              {' '}
+              <a href="https://medialab.github.io/minivan/#/explorer?bundle=https:%2F%2Fraw.githubusercontent.com%2Ffedericopozzi%2Fefi-amazon-fires%2Fmain%2Fsrc%2Fvisualisations%2FBUNDLE%2520-%2520Amazon%2520Fires%2520co-hashtag%2520network.json%3Ftoken%3DABXT7KIDA37AD6LJIJMUFYLBU5CV2" target="_blank" rel="noreferrer" className="text-white text-decoration-none">click here</a>
             </p>
           </div>
         </div>
@@ -109,29 +108,14 @@ export default function Index() {
             <Heading5 classi="" text="Visualisations Issue 2" />
           </div>
           <div className="col-6 offset-1">
-            <p>
-              link
-              {' '}
-            </p>
-          </div>
-        </div>
-
-        <div className="row pt-2">
-          <div className="col-3 offset-1">
-            <Heading5 classi="" text="Visualisations Issue 3" />
-          </div>
-          <div className="col-6 offset-1">
-            <p>
-              link
-              {' '}
-            </p>
+            <a href="https://drive.google.com/drive/folders/11aCuSVZt8nJ4wTho4pTkosjZkBzcg0jH?usp=sharing" target="_blank" rel="noreferrer" className="text-white text-decoration-none">click here</a>
           </div>
         </div>
 
       </div>
 
       <div className="container-fluid bg-primary ">
-        <div className="row ">
+        <div className="row " id="team">
           <div className="col-10 offset-1">
             <h1 className=" serif fw-bolder pt-5">Team and Contributors</h1>
           </div>
@@ -191,46 +175,64 @@ export default function Index() {
           <div className="col-8 offset-1">
             <p>The team would like to acknowledge the following experts for their expertise, insights and support:</p>
             <p>
-              <li> Juliana Holanda, PhD candidate, University of Warwick</li>
-
-              <li>Maria José Braga, President, National Federation of Journalists in Brazil (FENAJ)</li>
-
-              <li>Ana Magalhães, Journalism Coordinator, Repórter Brasil</li>
-
-              <li>Miguel Vilela, Digital Producer, National Geographic Brazil</li>
-
-              <li>Lindon Pronto, Senior Expert - Vegetation Fire Management, Resilience Programme, European Forest Institute</li>
+              <li> Alessandra Monnerat, Estadão Verifica</li>
 
               <li>Alex Held, Senior Expert, Resilience Programme, European Forest Institute</li>
 
-              <li>Peter Moore, Forestry Officer, Forest Fire Management & Disaster Risk Reduction, FAO</li>
-
-              <li> Ciaran Nugent, Forestry Inspector, Irish Forest Service, Department of Agriculture, Food & Marine</li>
-
-              <li>Tessa Oliver, Project Manager, LandWorks</li>
-
-              <li>Nadia Pontes, Brazil Correspondent, Deutsche Welle</li>
+              <li>Ana Magalhães, Journalism Coordinator, Repórter Brasil</li>
 
               <li>Bruno Fávero, Fact Checker, Aos Fatos</li>
 
-              <li>Ignacio Amigo, Freelance Science Journalist</li>
+              <li>Carla Jimenez, El País</li>
 
-              <li>Thais Lazzeri, Investigative Journalistv</li>
-              <li>Gustavo Faleiros, Founder, InfoAmazonia</li>
-
-              <li>Thais Espinosa, Correspondent, Amazônia Real</li>
-
-              <li>Marcio Pimenta, Freelance Photographer</li>
+              <li>Ciaran Nugent, Forestry Inspector, Irish Forest Service, Department of Agriculture, Food & Marine</li>
 
               <li>Claudio Angelo, Communications Manager, Observatório do Clima</li>
 
-              <li>Gülin Çavuş, Editor-in-Chief, Teyit</li>
+              <li>
+                Gustavo Faleiros, Founder, InfoAmazonia
+              </li>
 
-              <li>Carla Jimenez, El País</li>
+              <li>
+                Gülin Çavuş, Editor-in-Chief, Teyit
+              </li>
 
-              <li>Alessandra Monnerat, Estadão Verifica</li>
+              <li>
+                Ignacio Amigo, Freelance Science Journalist
+              </li>
 
-              <li>Isabela Dias, Freelance Journalist</li>
+              <li>
+                Isabela Dias, Freelance Journalist
+              </li>
+
+              <li>
+                Juliana Holanda, PhD candidate, University of Warwick
+              </li>
+
+              <li>
+                Lindon Pronto, Senior Expert - Vegetation Fire Management, Resilience Programme, European Forest Institute
+              </li>
+              <li>
+                Marcio Pimenta, Freelance Photographer
+              </li>
+
+              <li>Maria José Braga, President, National Federation of Journalists in Brazil (FENAJ)</li>
+
+              <li>Miguel Vilela, Digital Producer, National Geographic Brazil</li>
+
+              <li>Nadia Pontes, Brazil Correspondent, Deutsche Welle</li>
+
+              <li>
+                Peter Moore, Forestry Officer, Forest Fire Management & Disaster Risk Reduction, FAO
+              </li>
+
+              <li>Tessa Oliver, Project Manager, LandWorks</li>
+
+              <li>
+                Thais Espinosa, Correspondent, Amazônia Real
+              </li>
+
+              <li>Thais Lazzeri, Investigative Journalist</li>
 
             </p>
             <p>We would like to thank King’s College London MA students from the 2019-2020 digital methods class for joining us in exploratory work on this topic ahead of the start of this project.</p>

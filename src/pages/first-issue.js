@@ -1,3 +1,4 @@
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import Navbar from '../components/Navbar';
 import Layout from '../components/Layout';
 import {
@@ -138,12 +139,12 @@ export default function firstIssue() {
         <div className="row py-5">
           <div className="row">
             <div className="col-5 offset-1">
-              <Heading3 classi="pb-3" text="The hashtags against Bolsonaro portray voices and concerns from the State of Pará to Rio de Janeiro and Peru" />
+              <Heading3 classi="pb-3" text="The hashtags against Bolsonaro portray voices and concerns from the State of Pará and Rio de Janeiro to Peru" />
               <p>
                 When zooming into
                 {' '}
                 <span className="text-warning">#forabolsonaro</span>
-                , one of the most popular hashtags against Bolsonaro with over 2300 tweets, the top tweet was a tweet by Dilma Bolada, a fictional character who became a social media influencer  during  the terms of Dilma Rousseff, the former Brazilian president. With 1.1 million followers, the account called for protests  in various cities in Brazil. Another tweet posted a video claiming to show the fires reaching a residential street in the state of Para, one of the Brazilian states with  an increasing deforestation rate. There was also a tweet with a video of protests at the Brazilian embassy in Peru, using hashtags that criticise Bolsonaro and Salles, the former Brazilian Environment Minister.
+                , one of the most popular hashtags against Bolsonaro with over 2300 tweets, the top tweet was a tweet by Dilma Bolada, a fictional character who became a social media influencer  during  the terms of Dilma Rousseff, the former Brazilian president. With 1.1 million followers, the account called for protests  in various cities in Brazil. Another tweet posted a video claiming to show the fires reaching a residential street in the state of Para, one of the Brazilian states with  an increasing deforestation rate. There was also a tweet with a video of protests at the Brazilian embassy in Peru, using hashtags that criticise Bolsonaro and Ricardo Salles, the former Brazilian Environment Minister.
               </p>
             </div>
             <div className="col-3 offset-2">
@@ -161,7 +162,7 @@ export default function firstIssue() {
                 and
                 {' '}
                 <span className="text-warning">#panelaço</span>
-                . Panelaco is a form of protest which was originally used against the former Dilma government and was later taken over by the protestors against Bolsonaro. The social media influencer’s account tweeted calling for a balcony protest by banging pots and pans at their window using a photo of the former president Dilma holding a pan and sharing a video of panelaço in Rio de Janeiro. One of these tweets was also shared by the Brazilian Senator Humberto Costa and the former Health Minister.
+                . Panelaco is a form of protest which was originally used against the former Dilma government and was later taken over by the protestors against Bolsonaro. The social media influencer’s account tweeted calling for a balcony protest by banging pots and pans at their window using a photo of the former president Dilma holding a pan and sharing a video of panelaço in Rio de Janeiro. One of these tweets was also shared by the Brazilian Labour Party Senator Humberto Costa and the former Health Minister.
               </p>
             </div>
             <div className="col-3 offset-2 mt-n5">
@@ -287,7 +288,7 @@ export default function firstIssue() {
           </div>
           <div className="col-5 offset-1" style={{ marginTop: '-10vh' }}>
 
-            <p>These hashtags (#gmo, #glyphosate, and #glifosato) were positioned closely with #crimeagainsthumanity and #stopdeforestation. For instance, #crimeagainsthumanity was brought together with #ecocide, #GOP (the US Republican party), #environment and hashtags against Bolsonaro and Salles.</p>
+            <p>These hashtags (#gmo, #glyphosate, and #glifosato) were positioned closely with #crimeagainsthumanity and #stopdeforestation. For instance, #crimeagainsthumanity was brought together with #ecocide, #GOP (the US Republican party), #environment and hashtags against Bolsonaro and Ricardo Salles.</p>
             <p>There was also a cluster referring to crime,misconduct and conflict, including hashtags such as #warcrime, #corruption, #pollution, #tradewar, #landgrabbing, sitting closely with #leather, #europe, and #cop24. </p>
           </div>
         </div>
@@ -310,8 +311,9 @@ export default function firstIssue() {
 
       <div className="container-fluid gradient text-white">
         <div className="row py-5">
-          <div className="col-1 offset-1">
-            <p className="fw-bolder serif">Participate:</p>
+          <div className="col-2 offset-1">
+            <AnchorLink to="/about#ResearchMethods" className="text-white text-decoration-none"><p className="fw-bolder serif">Read more about our research methods:</p></AnchorLink>
+
           </div>
           <div className="col-2 offset-1">
             🎤  — Add your voice at this link where we collect inputs about this issue story
@@ -320,7 +322,7 @@ export default function firstIssue() {
           <div className="col-2 offset-1">
             ✏️ — Read the blog where we share new insights about this issue story
           </div>
-          <div className="col-2 offset-1">
+          <div className="col-2 ps-4">
             <a href="https://medialab.github.io/minivan/#/explorer?bundle=https:%2F%2Fraw.githubusercontent.com%2Ffedericopozzi%2Fefi-amazon-fires%2Fmain%2Fsrc%2Fvisualisations%2FBUNDLE%2520-%2520Amazon%2520Fires%2520co-hashtag%2520network.json%3Ftoken%3DABXT7KIDA37AD6LJIJMUFYLBU5CV2" target="_blank" rel="noreferrer" className="text-white text-decoration-none">🔎 — Explore the interactive network</a>
           </div>
         </div>
