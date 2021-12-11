@@ -36,18 +36,20 @@ export default function HomeIndex() {
                             homeIndex.map(({
                               src, title, descr2, descr1, link,
                             }, index) => (
-                              <Link to={link} className="linkHome" key={index}>
-                                <div className="row py-5 gradient align-items-center fadeIndex" style={{ height: '70vh' }}>
-                                  <div className="col-4 offset-1">
-                                    <img src={src} className="img-fluid " alt="..." />
+                              <div className="row h-100">
+                                <Link to={link} className="linkHome" key={index}>
+                                  <div className="row py-5 gradient align-items-center fadeIndex" style={{ height: '70vh' }}>
+                                    <div className="col-4 offset-1">
+                                      <img src={src} className="img-fluid " alt="..." />
+                                    </div>
+                                    <div className="col-5 offset-1">
+                                      <Heading4 className=" pb-3" text={title} />
+                                      <p>{descr1}</p>
+                                      <p>{descr2}</p>
+                                    </div>
                                   </div>
-                                  <div className="col-5 offset-1">
-                                    <Heading4 className=" pb-3" text={title} />
-                                    <p>{descr1}</p>
-                                    <p>{descr2}</p>
-                                  </div>
-                                </div>
-                              </Link>
+                                </Link>
+                              </div>
                             ))
                         }
 
