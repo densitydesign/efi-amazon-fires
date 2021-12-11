@@ -105,3 +105,14 @@ height: calc(100vh - var(--navbar-height))
 .pointer:hover {
   cursor: pointer;
 }
+
+.margine-top {
+  margin-top: -40vh;
+  @include media-breakpoint-down(xl) { margin-top: 0 }
+}
+
+
+.margine-top-2 {
+  margin-top: -20vh;
+  @include media-breakpoint-down(xl) { margin-top: 0 }
+}

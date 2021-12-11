@@ -71,10 +71,10 @@ export default function firstIssue() {
           <div className="col-10 offset-1 py-3 ">
             <Heading4 classi="pb-4" text="1 — Constellation of narratives supporting and opposing Bolsonaro and/or Macron" />
           </div>
-          <div className="col-6 offset-1">
+          <div className="col-lg-5 col-10 offset-1">
             <Image src={img3} />
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-10 offset-1">
             <Heading3 classi="pb-3" text="Bolsonaro vs Macron: War of Words" />
             <p>
               One of the most visible clusters was associated with the
@@ -138,7 +138,7 @@ export default function firstIssue() {
 
         <div className="row py-5">
           <div className="row">
-            <div className="col-5 offset-1">
+            <div className="col-lg-5 col-10 offset-1">
               <Heading3 classi="pb-3" text="The hashtags against Bolsonaro portray voices and concerns from the State of Pará and Rio de Janeiro to Peru" />
               <p>
                 When zooming into
@@ -150,10 +150,10 @@ export default function firstIssue() {
             <div className="col-3 offset-2">
               {/* <Image classi="" src={img61} /> */}
             </div>
-            <div className="col-10 offset-1" style={{ marginTop: '-40vh' }}>
+            <div className="col-10 offset-1 margine-top">
               <Image classi="pb-5" src={img6} />
             </div>
-            <div className="col-5 offset-1" style={{ marginTop: '-40vh' }}>
+            <div className="col-lg-5 col-10 offset-1 margine-top">
               <p>
                 Dilma Bolada’s account was also visible when looking into the hashtags
                 {' '}
@@ -173,7 +173,7 @@ export default function firstIssue() {
 
         <div className="row py-5">
           <div className="row mb-n5">
-            <div className="col-5 offset-1">
+            <div className="col-lg-5 col-10 offset-1">
               <Heading3 classi="pb-3" text="While not as prominent as those against him, voices supporting Bolsonaro were also present" />
               <p>
                 When zooming into pro-Bolsonaro hashtags it is possible to identify tweets from pro-Bolsonaro accounts, many of which are suspended on Twitter. For instance,
@@ -186,11 +186,11 @@ export default function firstIssue() {
               {/* <Image classi="py-3" src={img71} /> */}
             </div>
           </div>
-          <div className="row " style={{ marginTop: '-15vh' }}>
+          <div className="row margine-top-2">
             <div className="col-10 offset-1">
               <Image classi="py-3" src={img7} />
             </div>
-            <div className="col-5 offset-1" style={{ marginTop: '-20vh' }}>
+            <div className="col-lg-5 col-10 offset-1 margine-top-2">
               <p className="py-3">
                 Another pro-Bolsonaro hashtag,
                 {' '}
@@ -207,7 +207,7 @@ export default function firstIssue() {
           <div className="col-10 offset-1 py-3 ">
             <Heading4 classi="pb-4" text="2 - The global North-South link: from deforestation drivers and consumer responsibilities, to international trade and crimes in the forests " />
           </div>
-          <div className="col-5 offset-1">
+          <div className="col-lg-5 col-10 offset-1">
             <Heading3 classi="pb-3" text="Linking deforestation with consumer responsibilities" />
             <p>
               Some people who tweeted with trending Amazon fires-related hashtags made the connection between
@@ -232,12 +232,12 @@ export default function firstIssue() {
               A number of hashtags also referred to consumer practices around meat or beef, such as #gowithoutbeef, #govegan, and #stopeatingmeat.
             </p>
           </div>
-          <div className="col-5">
+          <div className="col-lg-5 col-10 offset-1">
             <Image src={img8} />
           </div>
         </div>
         <div className="row pt-5">
-          <div className="col-4 offset-1">
+          <div className="col-lg-4 col-10 offset-1">
             <Heading3 classi="pb-3" text="Linking deforestation with business, investment, trade, economy and crimes" />
             <p>
               There were also
@@ -265,7 +265,7 @@ export default function firstIssue() {
 
             {/* <Image classi="border-secondary border-1" src={img91} /> */}
           </div>
-          <div className="col-5 offset-1">
+          <div className="col-lg-5 col-10 offset-1">
             <Image src={img9} />
             <div className="row py-3">
               <div className="col-8">
@@ -283,7 +283,7 @@ export default function firstIssue() {
               Hashtags such as #gmo, #glyphosate, and #glifosato are associated  with #climatechange, #bolsonaro and #brazil. A company name, #monsanto and #boycott were brought together with #gmo and #glyphosate. In the case of #gmo, the following hashtags have been tweeted together: #deforestation, #plantatree, #forestfires, #bees, #agribusiness, #soybeans, #reforestation, and #protest.
             </p>
           </div>
-          <div className="col-10 offset-1" style={{ marginTop: '-30vh' }}>
+          <div className="col-10 offset-1 margine-top-2">
             <Image src={img10} />
           </div>
           <div className="col-5 offset-1" style={{ marginTop: '-10vh' }}>
