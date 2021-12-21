@@ -116,3 +116,17 @@ height: calc(100vh - var(--navbar-height))
   margin-top: -20vh;
   @include media-breakpoint-down(xl) { margin-top: 0 }
 }
+
+.mobile {
+  display: none;
+  @include media-breakpoint-down(sm) {
+    display: block;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 9999;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: black;}
+}
