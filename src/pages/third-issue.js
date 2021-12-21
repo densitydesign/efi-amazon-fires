@@ -499,11 +499,11 @@ export default function secondIssue() {
             <p className="fw-bolder serif">Participate:</p>
           </div>
           <div className="col-3 offset-1">
-            🎤  — Add your voice at this link where we collect inputs about this issue story
+            <h6>🎤  — Add your voice at this link where we collect inputs about this issue story</h6>
 
           </div>
           <div className="col-3 offset-1">
-            ✏️ — Read the blog where we share new insights about this issue story
+            <h6>✏️ — Read the blog where we share new insights about this issue story</h6>
           </div>
         </div>
       </div>

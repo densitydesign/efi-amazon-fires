@@ -316,14 +316,14 @@ export default function firstIssue() {
 
           </div>
           <div className="col-2 offset-1">
-            🎤  — Add your voice at this link where we collect inputs about this issue story
+            <h6>🎤  — Add your voice at this link where we collect inputs about this issue story</h6>
 
           </div>
           <div className="col-2 offset-1">
-            ✏️ — Read the blog where we share new insights about this issue story
+            <h6>✏️ — Read the blog where we share new insights about this issue story</h6>
           </div>
           <div className="col-2 ps-4">
-            <a href="https://medialab.github.io/minivan/#/explorer?bundle=https:%2F%2Fraw.githubusercontent.com%2Ffedericopozzi%2Fefi-amazon-fires%2Fmain%2Fsrc%2Fvisualisations%2FBUNDLE%2520-%2520Amazon%2520Fires%2520co-hashtag%2520network.json%3Ftoken%3DABXT7KIDA37AD6LJIJMUFYLBU5CV2" target="_blank" rel="noreferrer" className="text-white text-decoration-none">🔎 — Explore the interactive network</a>
+            <a href="https://medialab.github.io/minivan/#/explorer?bundle=https:%2F%2Fraw.githubusercontent.com%2Ffedericopozzi%2Fefi-amazon-fires%2Fmain%2Fsrc%2Fvisualisations%2FBUNDLE%2520-%2520Amazon%2520Fires%2520co-hashtag%2520network.json%3Ftoken%3DABXT7KIDA37AD6LJIJMUFYLBU5CV2" target="_blank" rel="noreferrer" className="text-white text-decoration-none"><h6>🔎 — Explore the interactive network</h6></a>
           </div>
         </div>
       </div>

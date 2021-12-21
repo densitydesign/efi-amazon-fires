@@ -83,11 +83,11 @@ export default function secondIssue() {
             <Heading4 classi="pb-4" text="1 — Absence and marginalisation of science on Twitter" />
           </div>
 
-          <div className="col-6 offset-1 pb-2">
+          <div className="col-10 col-lg-6 offset-1 pb-2">
             <GraphQuote classi="pb-5" emoticon="📉" text="Top hashtags overtime, resized by number of tweets. Green represents some of the top hashtags with a high number of tweets, while red indicates science-related hashtags with lower number of tweets." />
             <Image src={img2} />
           </div>
-          <div className="col-4  py-2 ps-5">
+          <div className="col-lg-4 col-10 offset-1  py-2 ps-5">
             <Heading3 classi="pb-3" text="Science-related hashtags seldom make it to the top " />
             <p>
               The top hashtags during the peak of the event were mostly calls for action
@@ -300,12 +300,12 @@ export default function secondIssue() {
 
         </div>
         <div className="row">
-          <div className="col-7 offset-1">
+          <div className="col-lg-7 col-10 offset-1">
             <GraphQuote classi="py-3" emoticon="📉" text="Most prominent sources in media articles promoted with a misleading claim on Twitter, resized by number of mention" />
             <Image src={img8} />
           </div>
-          <div className="col-2 offset-1">
-            <Image src={img81} />
+          <div className="col-lg-2 col-10 offset-1">
+            <Image src={img81} classi="d-lg-block d-none" />
             <p className="pt-5">
               Out of 23 freely accessible, English-language media articles circulated with the misleading claim “20% of the world’s oxygen is produced in the Amazon” on Twitter,
               <span className="text-secondary"> there were 6 articles which debunked the claim. These articles were published by Forbes, National Geographic, BBC, Science News, Atlantic and Asiaville News.</span>
@@ -436,22 +436,22 @@ export default function secondIssue() {
             <p className="fw-bolder serif">Participate:</p>
           </div>
           <div className="col-2 offset-1">
-            🎤  — Add your voice at this link where we collect inputs about this issue story
+            <h6>🎤  — Add your voice at this link where we collect inputs about this issue story</h6>
 
           </div>
           <div className="col-2 offset-1">
-            ✏️ — Read the blog where we share new insights about this issue story
+            <h6>✏️ — Read the blog where we share new insights about this issue story</h6>
           </div>
           <div className="col-2 offset-1">
             <a href="https://medialab.github.io/minivan/#/explorer?bundle=https:%2F%2Fraw.githubusercontent.com%2Ffedericopozzi%2Fefi-amazon-fires%2Fmain%2Fsrc%2Fvisualisations%2FBUNDLE%2520-%2520Network%2520of%2520users%2520mentioning%2520each%2520others%2520on%2520Twitter%2520-%2520Amazon%2520Fires.json%3Ftoken%3DABXT7KN63M5RBUNHFOOXFILBVDZSK" target="_blank" rel="noreferrer" className="text-white text-decoration-none">
-              🔎 — Explore the interactive network
+              <h6> 🔎 — Explore the interactive network</h6>
               {' '}
             </a>
             <br />
             {' '}
             <a href="https://drive.google.com/drive/folders/11aCuSVZt8nJ4wTho4pTkosjZkBzcg0jH?usp=sharing" target="_blank" rel="noreferrer" className="text-white text-decoration-none">
               {' '}
-              🔎 — Take a Look to the High Res Viz
+              <h6>🔎 — Take a Look to the High Res Viz</h6>
             </a>
           </div>
         </div>
