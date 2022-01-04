@@ -77,7 +77,7 @@ export default function secondIssue() {
         </div>
         <div className="row">
           <div className="col-6 offset-1 py-4">
-            <Heading1 text="Tracing the recycling of online materials" />
+            <Heading1 text="Tracing online recycling practices" />
           </div>
         </div>
         <div className="row align-items-center">
@@ -259,7 +259,7 @@ export default function secondIssue() {
               </p>
               <p>
                 This image was shot by a photographer who passed away in 2003. The
-                <span className="text-warning">photo posted by Cristiano Ronaldo</span>
+                <span className="text-warning"> photo posted by Cristiano Ronaldo</span>
                 {' '}
                 was from 2013 and not taken in southern Brazil.
               </p>
@@ -283,7 +283,6 @@ export default function secondIssue() {
                 For example,
                 {' '}
                 <span className="text-warning">the most retweeted tweet is from 26th August (14340 retweets)</span>
-                {' '}
                 , and  included a photo claiming to show the deforestation issues in Thailand.
               </p>
 
@@ -430,32 +429,70 @@ export default function secondIssue() {
               <span className="text-warning"> these articles treated the misleading claim as a confirmed fact</span>
               , and did not add any corrections to the published stories.
             </p>
+            <Image src={img93} />
+            <p className="text-end">
+              <a href="https://bit.ly/2KTOvZF
+"
+              >
+                Full article
+              </a>
+            </p>
+            <Image classi="pt-3" src={img94} />
+            <p className="text-end">
+              <a href="https://www.google.com/amp/s/www.cnet.com/google-amp/news/the-amazon-rainforest-is-on-fire-what-we-know-so-far-and-how-you-can-help/
+"
+              >
+                Full article
+              </a>
+            </p>
+            <Image classi="pt-3" src={img95} />
+            <p className="text-end">
+              <a href="https://cnn.it/2MCgFuq">
+                Full article
+              </a>
+            </p>
+            <Image classi="pt-3" src={img96} />
+            <p className="text-end">
+              <a href="https://cnn.it/33YCXfd">
+                Full article
+              </a>
+            </p>
+            <Image classi="pt-3" src={img97} />
+            <p className="text-end">
+              <a href="https://www.cnn.com/2019/08/23/americas/brazil-beef-amazon-rainforest-fire-intl/index.html">
+                Full article
+              </a>
+            </p>
+            <Image classi="pt-3" src={img98} />
+            <p className="text-end">
+              <a href="https://globalnews.ca/news/5794191/amazon-rainforest-fire-explained/">
+                Full article
+              </a>
+            </p>
+
+          </div>
+          <div className="col-4 offset-1 pb-5">
             <p>
               <span className="text-secondary">Corrected</span>
               {' '}
               the statement after publication
             </p>
             <Image src={img91} />
-            <p className="text-end">link</p>
+            <p className="text-end">
+              <a href="https://truthout.org/articles/the-amazon-is-dying-and-bolsonaro-is-fanning-the-flames/">
+                Full article
+              </a>
+            </p>
+
             <p className="pt-3">
               <span className="text-light">Perplexing</span>
             </p>
             <Image src={img92} />
-            <p className="text-end">link</p>
-          </div>
-          <div className="col-4 offset-1 pb-5">
-            <Image src={img93} />
-            <p className="text-end">link</p>
-            <Image classi="pt-3" src={img94} />
-            <p className="text-end">link</p>
-            <Image classi="pt-3" src={img95} />
-            <p className="text-end">link</p>
-            <Image classi="pt-3" src={img96} />
-            <p className="text-end">link</p>
-            <Image classi="pt-3" src={img97} />
-            <p className="text-end">link</p>
-            <Image classi="pt-3" src={img98} />
-            <p className="text-end">link</p>
+            <p className="text-end">
+              <a href="https://www.cnn.com/2019/09/04/americas/brazil-amazon-npw-intl/index.html">
+                Full article
+              </a>
+            </p>
           </div>
 
           <div className="col-5 offset-1 pt-5">
@@ -463,31 +500,83 @@ export default function secondIssue() {
               CNN particularly stood out as their articles consistently supported the claim. When looking at the URLs embedded in all the media articles in our sample, there were 26 unique URLs directed to the CNN website. Among these URLs,
               <span className="text-warning"> 8 stories explicitly promoted the misleading claim.</span>
             </p>
-            <Image src={img101} />
-            <p className="text-end">link</p>
-            <Image src={img102} />
-            <p className="text-end">link</p>
+
             <Image classi="pt-3" src={img108} />
-            <p className="text-end">link</p>
+            <p className="text-end">
+              <a href="https://edition.cnn.com/2019/07/02/americas/amazon-brazil-bolsonaro-deforestation-scli-intl/index.html">
+                Full article
+              </a>
+            </p>
             <Image classi="pt-3" src={img109} />
-            <p className="text-end">link</p>
+            <p className="text-end">
+              <a href="https://edition.cnn.com/2019/08/21/americas/amazon-rainforest-fire-intl-hnk-trnd/index.html">
+                Full article
+              </a>
+            </p>
             <Image classi="pt-3" src={img110} />
-            <p className="text-end">link</p>
+            <p className="text-end">
+              <a href="https://edition.cnn.com/2019/08/22/americas/amazon-fires-humans-intl-hnk-trnd/index.html/index.html">
+                Full article
+              </a>
+            </p>
+            <Image src={img101} />
+            <p className="text-end">
+              <a href="https://edition.cnn.com/2019/08/22/us/iyw-how-to-help-amazon-forest-fires-trnd/index.html">
+                Full article
+              </a>
+            </p>
+            <Image src={img102} />
+            <p className="text-end">
+              <a href="https://edition.cnn.com/2019/08/23/americas/amazon-fires-macron-g7-intl-hnk/index.html">
+                Full article
+              </a>
+            </p>
           </div>
           <div className="col-4 offset-1 pt-5">
             <Image src={img93} />
-            <p className="text-end">link</p>
+            <p className="text-end">
+              <a href="https://edition.cnn.com/2019/08/23/americas/amazon-wildfires-411/index.html/index.html">
+                Full article
+              </a>
+            </p>
             <Image classi="pt-3" src={img103} />
-            <p className="text-end">link</p>
+            <p className="text-end">
+              <a href="https://edition.cnn.com/2019/08/25/americas/leonardo-dicaprio-amazon-fire-fund-trnd/index.html">
+                Full article
+              </a>
+            </p>
             <Image classi="pt-3" src={img104} />
-            <p className="text-end">link</p>
+            <p className="text-end">
+              <a href="https://edition.cnn.com/americas/live-news/amazon-wildfire-august-2019/index.html">
+                Full article
+              </a>
+            </p>
             <Image classi="pt-3" src={img105} />
-            <p className="text-end">link</p>
+            <p className="text-end">
+              <a href="https://edition.cnn.com/2019/08/27/americas/trudeau-canada-aid-amazon-fires-trnd/index.html">
+                Full article
+              </a>
+            </p>
             <Image classi="pt-3" src={img106} />
-            <p className="text-end">link</p>
+            <p className="text-end">
+              <a href="https://edition.cnn.com/2019/08/23/americas/brazil-beef-amazon-rainforest-fire-intl/index.html">
+                Full article
+              </a>
+            </p>
             <Image classi="pt-3" src={img107} />
-            <p className="text-end">link</p>
+            <p className="text-end">
+              <a href="https://edition.cnn.com/2019/08/27/americas/trudeau-canada-aid-amazon-fires-trnd/index.html">
+                Full article
+              </a>
+            </p>
 
+          </div>
+          <div className="col-8 offset-1">
+            <p>
+              Research indicates that images "do well" on social media. The professionalised use of stock images in social media posts and news coverage is widespread amongst journalists and media organisations, especially where visuals accompany breaking news stories.
+            </p>
+            <p>Our analysis indicates the prominent role that stock and "generic" images play not just in news coverage but also more widely in online mobilisations around environmental issues. While images can be "fact-checked" and it can often be assumed that an image is being presented as a literal representation of events, the re-purposing and circulation of such images are not in itself inherently problematic. Image reuse is not only part of professional image editorial, but also digital culture and social media user practices (e.g. making memes from common images and stock photography).</p>
+            <p>The politics of recycled media, stock photography and generic images in relation to environmental issues deserve careful attention and interpretation. Our research suggests the value of more differential analyses about what such images do and more situated accounts of the meanings with which they are invested, rather than being assumed to default to a more literal, representational mode.</p>
           </div>
         </div>
 
@@ -499,11 +588,24 @@ export default function secondIssue() {
             <p className="fw-bolder serif">Participate:</p>
           </div>
           <div className="col-3 offset-1">
-            <h6>🎤  — Add your voice at this link where we collect inputs about this issue story</h6>
-
+            <a
+              href="https://forms.gle/Mk1MeTKPmzMQUk9Q8"
+              target="blank"
+              rel="noreferrer"
+              className="text-white"
+            >
+              <h6>🎤  — Add your voice at this link where we collect inputs about this issue story</h6>
+            </a>
           </div>
           <div className="col-3 offset-1">
-            <h6>✏️ — Read the blog where we share new insights about this issue story</h6>
+            <a
+              href="https://thelookoutstation.com/out-flames-your-say"
+              target="blank"
+              rel="noreferrer"
+              className="text-white"
+            >
+              <h6>✏️ — Read the blog where we share new insights about this issue story</h6>
+            </a>
           </div>
         </div>
       </div>

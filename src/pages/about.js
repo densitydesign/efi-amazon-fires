@@ -59,7 +59,7 @@ export default function Index() {
         <div className="row py-5">
           <div className="col-8 offset-1">
             <p>
-              We employed “quanti-qualitative” social media analysis, specifically Twitter image and text analysis with digital methods (Rogers, 2013, 2019; Caliandro & Gandini, 2016) and cross-platform image analysis with visual methods (Colombo, 2019; Rose, 2016; Rogers, 2017, Niederer, 2018, 2019; Niederer & Colombo, 2019). Semi-structured interviews with 17 issue experts consisting of Brazilian and international journalists, researchers and representatives from NGOs and fact-checking organisations have been conducted to collect key events including controversial/contentious issues.  Detailed methodological elaboration can be found in the Out of the Flames full report [LINK].
+              We employed “quanti-qualitative” social media analysis, specifically Twitter image and text analysis with digital methods (Rogers, 2013, 2019; Caliandro & Gandini, 2016) and cross-platform image analysis with visual methods (Colombo, 2019; Rose, 2016; Rogers, 2017, Niederer, 2018, 2019; Niederer & Colombo, 2019). Semi-structured interviews with 17 issue experts consisting of Brazilian and international journalists, researchers and representatives from NGOs and fact-checking organisations have been conducted to collect key events including controversial/contentious issues.  Detailed methodological elaboration can be found in the Out of the Flames full report accessible under ‘Resources’..
               {' '}
             </p>
             <p>For the Twitter image analysis, we collected 311,483 tweets containing one of the following hashtags: #ActForTheAmazon, #amazonfires, #AmazonRainforest, #PrayforAmazonia, #SaveTheAmazon, #SOSAmazonia, covering the period of 24th August to 2nd September 2019. This period was chosen because it corresponds to a window of higher engagement on Twitter and other platforms. We then carried out 12 individual inquiries to understand the actors, narratives, issues and practices that emerged around key Amazon rainforest fires hashtags on Twitter. </p>
@@ -68,7 +68,18 @@ export default function Index() {
             <p>
               By taking an empiricist and participatory style of inquiry, 14 researchers, media, NGOs and forest practitioners with knowledge and expertise about the subject matter were invited to participate in collaborative interpretation of network maps and visualisations.
             </p>
-            <p>As this website portrays the interpretation with a limited number of issue experts, any additional insights and interpretations from you would enrich our analysis further. If you would like to share with us your inputs, in particular, on the following network maps and visualizations, please do get in touch through this form. </p>
+            <p>
+              As this website portrays the interpretation with a limited number of issue experts, any additional insights and interpretations from you would enrich our analysis further. If you would like to share with us your inputs, in particular, on the following network maps and visualizations, please do get in touch through
+              <a
+                href="https://forms.gle/Mk1MeTKPmzMQUk9Q8"
+                target="blank"
+                className="text-white"
+              >
+                {' '}
+                this form.
+                {' '}
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -94,7 +105,7 @@ export default function Index() {
 
         <div className="row pt-2">
           <div className="col-3 offset-1">
-            <Heading5 classi="" text="Full network Issue 1" />
+            <Heading5 classi="" text="Co-hashtag network visualisation" />
           </div>
           <div className="col-6 offset-1">
             <p>
@@ -105,7 +116,7 @@ export default function Index() {
 
         <div className="row pt-2">
           <div className="col-3 offset-1">
-            <Heading5 classi="" text="Visualisations Issue 2" />
+            <Heading5 classi="" text="Top 100 hashtags overtime" />
           </div>
           <div className="col-6 offset-1">
             <a href="https://drive.google.com/drive/folders/11aCuSVZt8nJ4wTho4pTkosjZkBzcg0jH?usp=sharing" target="_blank" rel="noreferrer" className="text-white text-decoration-none">click here</a>
@@ -135,7 +146,9 @@ export default function Index() {
           <div className="col-6 offset-1">
             <p>
               Rina Tsubaki, Communications Manager - Strategic Partnerships, The European Forest Institute
+              <br />
               Yitagesu Tekle Tegegne, Governance Forest Governance Team Lead, The European Forest Institute
+              <br />
               Georg Winkel, Head of Governance Programme, The European Forest Institute
 
             </p>

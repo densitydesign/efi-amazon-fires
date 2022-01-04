@@ -163,7 +163,7 @@ export default function secondIssue() {
             <Heading3 classi="pb-3" text="Scientific voices emerge at the top only after the spike " />
           </div>
           <div className="col-6">
-            Scientific voices gathered visibility only after the spike when the number of tweets started to decrease in the peak period. . As shown below, a few science-related tweets appeared at the top as the overall number of retweets slowed down. These tweets were from the users claiming to have a scientific or research background, namely
+            Scientific voices gathered visibility only after the spike when the number of tweets started to decrease in the peak period. As shown below, a few science-related tweets appeared at the top as the overall number of retweets slowed down. These tweets were from the users claiming to have a scientific or research background, namely
             {' '}
             <span className="text-secondary"> @astro_luca (astronaut)</span>
             ,
@@ -325,24 +325,21 @@ export default function secondIssue() {
             <Heading3 text="Some scientists got it wrong and (yet) received media’s attention " />
           </div>
           <div className="col-4 offset-1">
-            <p>Scientists, especially those who are not specialised in the Amazon-related issues, can get it wrong. In our sample of 23 articles, there were two scientific sources who referred to the misleading claim as (potentially) accurate. </p>
+            <p>Scientists, including those who are not specialised in the Amazon rainforest or associated areas of research, have gotten it wrong. In our sample of 23 articles, two scientific sources referred to the misleading claim without critical caveats.  </p>
           </div>
           <div className="col-6 offset-1">
             <Image src={img9} />
           </div>
           <div className="col-3 offset-1 pt-5">
             <p>
-              <span className="text-light">Scott Kelly</span>
-              , a former NASA astronaut and an engineer, appeared in a National Geographic article as someone who promoted a misleading claim. His tweet, quoted in the article, states, “The #AmazonRainforest produces more than 20% of the world's oxygen. We need O2 to survive!”
+              These claims have circulated amongst journalists as well as researchers who work in different research areas. As two scientific sources who promoted the claim were not specialised in the subject matter, these scientists may have engaged with the event in their capacity of concerned citizens. These examples point out some of the challenges both researchers and journalists face in relation to classifying and interpreting social media users.
+              {' '}
             </p>
             <Image src={img91} />
           </div>
           <div className="col-6 offset-1 pt-4">
             <p>
-              There was also a
-              <span className="text-warning"> senior research fellow in economics at the United Nations University</span>
-              , who repeatedly appeared in an Arab News article.  In the article, the source mentions, “The Amazon is often referred to as the lungs of the planet, perhaps providing 20 percent of the world’s oxygen”. The article then repeats the claim multiple times, treating it as a confirmed fact.
-              {' '}
+              Classifying account types is not always just a matter of professional background, but also the capacity in which a user is posting which is not always clear. With highly mediatised environmental events such as the Amazon rainforest fires posts may blur lines between personal and professional perspectives.
             </p>
           </div>
         </div>
@@ -436,22 +433,31 @@ export default function secondIssue() {
             <p className="fw-bolder serif">Participate:</p>
           </div>
           <div className="col-2 offset-1">
-            <h6>🎤  — Add your voice at this link where we collect inputs about this issue story</h6>
+            <a
+              href="https://forms.gle/Mk1MeTKPmzMQUk9Q8"
+              target="blank"
+              rel="noreferrer"
+              className="text-white"
+            >
+              <h6>🎤  — Add your voice at this link where we collect inputs about this issue story</h6>
+            </a>
 
           </div>
           <div className="col-2 offset-1">
-            <h6>✏️ — Read the blog where we share new insights about this issue story</h6>
+            <a
+              href="https://thelookoutstation.com/out-flames-your-say"
+              target="blank"
+              rel="noreferrer"
+              className="text-white"
+            >
+              <h6>✏️ — Read the blog where we share new insights about this issue story</h6>
+            </a>
           </div>
           <div className="col-2 offset-1">
-            <a href="https://medialab.github.io/minivan/#/explorer?bundle=https:%2F%2Fraw.githubusercontent.com%2Ffedericopozzi%2Fefi-amazon-fires%2Fmain%2Fsrc%2Fvisualisations%2FBUNDLE%2520-%2520Network%2520of%2520users%2520mentioning%2520each%2520others%2520on%2520Twitter%2520-%2520Amazon%2520Fires.json%3Ftoken%3DABXT7KN63M5RBUNHFOOXFILBVDZSK" target="_blank" rel="noreferrer" className="text-white text-decoration-none">
-              <h6> 🔎 — Explore the interactive network</h6>
-              {' '}
-            </a>
-            <br />
-            {' '}
+
             <a href="https://drive.google.com/drive/folders/11aCuSVZt8nJ4wTho4pTkosjZkBzcg0jH?usp=sharing" target="_blank" rel="noreferrer" className="text-white text-decoration-none">
               {' '}
-              <h6>🔎 — Take a Look to the High Res Viz</h6>
+              <h6>🔎 — Check top 100 hashtags overtime</h6>
             </a>
           </div>
         </div>

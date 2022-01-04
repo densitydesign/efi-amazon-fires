@@ -16,7 +16,7 @@ export default function HomeIndex() {
     },
     {
       src: chap2,
-      title: 'The multifaceted role of science beneath the surface',
+      title: 'Exploring the role of science online beneath the surface',
       descr1: 'As information crowds the space online, did scientific voices play any role? From a series of analyses, it is possible to identify multiple ways where science and scientific perspectives were mobilised. While in many cases, scientific voices were almost absent, marginal, present at the periphery or only after the “peak”, some specific scientific voices received a significant amount of credit and visibility on social media and media articles. ',
       descr2: 'This Issue Story exposes which scientific voices emerged online and how to depict the role science played in online engagement around the 2019 Amazon rainforest fires.',
       link: '/second-issue',

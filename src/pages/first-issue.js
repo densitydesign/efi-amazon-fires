@@ -289,13 +289,13 @@ export default function firstIssue() {
           <div className="col-5 offset-1" style={{ marginTop: '-10vh' }}>
 
             <p>These hashtags (#gmo, #glyphosate, and #glifosato) were positioned closely with #crimeagainsthumanity and #stopdeforestation. For instance, #crimeagainsthumanity was brought together with #ecocide, #GOP (the US Republican party), #environment and hashtags against Bolsonaro and Ricardo Salles.</p>
-            <p>There was also a cluster referring to crime,misconduct and conflict, including hashtags such as #warcrime, #corruption, #pollution, #tradewar, #landgrabbing, sitting closely with #leather, #europe, and #cop24. </p>
+            <p>There was also a cluster referring to crime, misconduct and conflict, including hashtags such as #warcrime, #corruption, #pollution, #tradewar, #landgrabbing, sitting closely with #leather, #europe, and #cop24. </p>
           </div>
         </div>
 
         <div className="row pt-5">
           <div className="col-6 offset-1 mmb-n5">
-            <Heading3 classi="pb-3" text="Linking the Amazon Fires with rights-related issues " />
+            <Heading3 classi="pb-3" text="Linking the Amazon fires with rights-related issues " />
             <p>
               {' '}
               <span className="text-warning">Rights-related issues</span>
@@ -316,11 +316,25 @@ export default function firstIssue() {
 
           </div>
           <div className="col-2 offset-1">
-            <h6>🎤  — Add your voice at this link where we collect inputs about this issue story</h6>
+            <a
+              href="https://forms.gle/Mk1MeTKPmzMQUk9Q8"
+              target="blank"
+              rel="noreferrer"
+              className="text-white"
+            >
+              <h6>🎤  — Add your voice at this link where we collect inputs about this issue story</h6>
+            </a>
 
           </div>
           <div className="col-2 offset-1">
-            <h6>✏️ — Read the blog where we share new insights about this issue story</h6>
+            <a
+              href="https://thelookoutstation.com/out-flames-your-say"
+              target="blank"
+              rel="noreferrer"
+              className="text-white"
+            >
+              <h6>✏️ — Read the blog where we share new insights about this issue story</h6>
+            </a>
           </div>
           <div className="col-2 ps-4">
             <a href="https://medialab.github.io/minivan/#/explorer?bundle=https:%2F%2Fraw.githubusercontent.com%2Ffedericopozzi%2Fefi-amazon-fires%2Fmain%2Fsrc%2Fvisualisations%2FBUNDLE%2520-%2520Amazon%2520Fires%2520co-hashtag%2520network.json%3Ftoken%3DABXT7KIDA37AD6LJIJMUFYLBU5CV2" target="_blank" rel="noreferrer" className="text-white text-decoration-none"><h6>🔎 — Explore the interactive network</h6></a>
