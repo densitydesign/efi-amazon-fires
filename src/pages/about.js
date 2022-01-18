@@ -59,10 +59,10 @@ export default function Index() {
         <div className="row py-5">
           <div className="col-8 offset-1">
             <p>
-              We employed “quanti-qualitative” social media analysis, specifically Twitter image and text analysis with digital methods (Rogers, 2013, 2019; Caliandro & Gandini, 2016) and cross-platform image analysis with visual methods (Colombo, 2019; Rose, 2016; Rogers, 2017, Niederer, 2018, 2019; Niederer & Colombo, 2019). Semi-structured interviews with 17 issue experts consisting of Brazilian and international journalists, researchers and representatives from NGOs and fact-checking organisations have been conducted to collect key events including controversial/contentious issues.  Detailed methodological elaboration can be found in the Out of the Flames full report accessible under ‘Resources’..
+              We employed “quanti-qualitative” social media analysis, specifically Twitter image and text analysis with digital methods (Rogers, 2013, 2019; Caliandro & Gandini, 2016) and cross-platform image analysis with visual methods (Colombo, 2019; Rose, 2016; Rogers, 2017, Niederer, 2018, 2019; Niederer & Colombo, 2019). Semi-structured interviews with 17 issue experts consisting of Brazilian and international journalists, researchers and representatives from NGOs and fact-checking organisations have been conducted to collect key events including controversial/contentious issues.  Detailed methodological elaboration can be found in the Out of the Flames full report accessible under ‘Resources’.
               {' '}
             </p>
-            <p>For the Twitter image analysis, we collected 311,483 tweets containing one of the following hashtags: #ActForTheAmazon, #amazonfires, #AmazonRainforest, #PrayforAmazonia, #SaveTheAmazon, #SOSAmazonia, covering the period of 24th August to 2nd September 2019. This period was chosen because it corresponds to a window of higher engagement on Twitter and other platforms. We then carried out 12 individual inquiries to understand the actors, narratives, issues and practices that emerged around key Amazon rainforest fires hashtags on Twitter. </p>
+            <p>For the Twitter image analysis, we collected 311,483 tweets containing one of the following hashtags: #ActForTheAmazon, #amazonfires, #AmazonRainforest, #PrayforAmazonia, #SaveTheAmazon, #SOSAmazonia, covering the period of 24th August to 2nd September 2019. This period was chosen because it corresponds to a window of higher engagement on Twitter and other platforms. We then carried out 12 further lines of inquiry to understand the actors, narratives, issues and practices that emerged around key Amazon rainforest fires hashtags on Twitter. </p>
             <p>For the cross-platform image analysis, we collected the most engaged images on five platforms (Twitter, Instagram, Facebook, YouTube and Google Images), covering 24th August to 2nd September 2019. This period corresponds to a period of higher social media activity around the Amazon rainforest fires. Similar queries were used for data extraction to enable cross-platform comparison. </p>
             <p>As an additional exploratory analysis to understand the role of scientific sources in the media coverage circulated on Twitter with a misleading claim, “20% of the world’s oxygen is produced in the Amazon”, we collected 23 freely accessible, English-language media articles, based on the queries “20%” and “oxygen” between 24 August 2019 and 19 March 2020 based on the Twitter dataset. We then manually collected two types of data from the sample, namely the article-level data and source-related data.</p>
             <p>
@@ -248,7 +248,7 @@ export default function Index() {
               <li>Thais Lazzeri, Investigative Journalist</li>
 
             </p>
-            <p>We would like to thank King’s College London MA students from the 2019-2020 digital methods class for joining us in exploratory work on this topic ahead of the start of this project.</p>
+            <p>We would like to thank MA students from the 2019-2020 edition of the Digital Methods for Internet Studies module at the Department of Digital Humanities, King’s College London for joining us in exploratory work on this topic ahead of the start of this project.</p>
           </div>
         </div>
 

@@ -33,13 +33,13 @@ export default function firstIssue() {
         <div className="row align-items-top">
           <div className="col-4 offset-1">
             <p className="pb-2 serif">
-              Forest governance deals with a wide range of issues from deforestation to global trade, from land use to sustainable financing. We were curious to know which forest governance issues surfaced on social media in relation to the 2019 Amazon forest fires, and which became a global talking point. We looked at how these issues surfaced in relation to the fires.
+              Forest governance deals with a wide range of issues and concerns from deforestation to global trade, from land use to sustainable financing. We were curious to know which kinds of concerns surfaced on social media in relation to the 2019 Amazon forest fires, and which became global talking points. We looked at how these concerns surfaced in relation to the fires.
             </p>
             <p className="py-2 serif">
               Looking at how the hashtags associated with Amazon fires on Twitter relate to each other*, one can observe different voices, concerns and positioning around a wide variety of forest governance issues, involving international and national political, business and other public figures.
             </p>
             <p className="py-2 serif">
-              This issue story depicts a selection of insights collected through a series of conversations with forest governance experts and journalists, many of whom followed the event closely during the peak period.  when the event became a global issue.
+              This issue story depicts a selection of insights collected through a series of conversations with forest governance experts and journalists, many of whom followed the event closely during the peak period when the event became a global issue.
             </p>
 
           </div>
@@ -52,12 +52,12 @@ export default function firstIssue() {
         </div>
         <div className="row align-items-end">
           <div className="col-4 offset-1">
-            <Quote classi="py-5" text="*We collected Twitter data covering the period of 24th August to 2nd September 2019 (10 days) using the following hashtags: #ActForTheAmazon, #amazonfires, #AmazonRainforest, #PrayforAmazonia, #SaveTheAmazon, and #SOSAmazonia. We then looked at what hashtags were associated with these in tweets, and observed different voices, concerns and positioning around a wide variety of forest governance issues, involving international and national political, business and other public figures." />
+            <Quote classi="py-5" text="*We collected Twitter data covering the period of 24th August to 2nd September 2019 (10 days) using the following hashtags: #ActForTheAmazon, #amazonfires, #AmazonRainforest, #PrayforAmazonia, #SaveTheAmazon, and #SOSAmazonia. We then looked at which other hashtags were associated with tweets containing the hashtags we started with, and observed different voices, concerns and positioning around a wide variety of forest governance issues, involving international and national political, business and other public figures." />
 
           </div>
           <div className="col-3 offset-1">
             <p className="py-2 serif">
-              Hashtags can act as an indicator of the issues and concerns of different publics and social media users. It can help us understand how different issues are associated with the main event, including which actors have been brought up with those issues.
+              Hashtags can act as an indicator of the issues and concerns of different publics and social media users. They can help us understand how different issues are associated with the fires, as well as which actors are involved in these issues.
             </p>
           </div>
           <div className="col-2">
@@ -75,7 +75,7 @@ export default function firstIssue() {
             <Image src={img3} />
           </div>
           <div className="col-lg-4 col-10 offset-1">
-            <Heading3 classi="pb-3" text="Bolsonaro vs Macron: War of Words" />
+            <Heading3 classi="pb-3" text="Bolsonaro and Macron's 'War of Words'" />
             <p>
               One of the most visible clusters was associated with the
               {' '}
@@ -87,7 +87,7 @@ export default function firstIssue() {
               , referred to as the ‘war of words’ by The Guardian.
             </p>
             <p>When the Amazon rainforest fires became international news, Macron tweeted the need to address the Amazon rainforest fires at the G7 meeting on 22 August 2019, receiving support from the Canadian Prime Minister Trudeau. Bolsonaro then criticised Macron for using the Brazilian issue for personal political gain, saying that suggesting a discussion of the issue without Brazil's involvement showed a colonial mentality in the 21st century. </p>
-            <p>At the same time, Bolsonaro supposedly mocked the French first lady in a Facebook post, to which Macron responded that this was “disrespectful” during the G7 press conference. Brazil then rejected $20 million in aid offered by G7 countries, followed by Twitter exchanges between the former US President Trump and Bolsonaro showing support to each other. </p>
+            <p>At the same time, Bolsonaro supposedly mocked the French first lady in a Facebook post, to which Macron responded that this was “disrespectful” during the G7 press conference. Brazil then rejected $20 million in aid offered by G7 countries, followed by Twitter exchanges between the former US President Trump and Bolsonaro showing support for each other. </p>
           </div>
         </div>
         <div className="row pt-2 pb-3 align-items-center">
@@ -100,7 +100,7 @@ export default function firstIssue() {
               were more visible than the hashtags that are either
               {' '}
               <span className="text-secondary">supporting Bolsonaro or criticising Macron</span>
-              . In particular, as most hashtags criticising Bolsonaro were in Portuguese, Brazilian perspectives against Bolsonaro have surfaced more prominently in the English language Twitter space.
+              . Brazilian perspectives against Bolsonaro were prominent including many hashtags in Portuguese.
             </p>
             <p>
               While the hashtags

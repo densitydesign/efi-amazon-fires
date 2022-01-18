@@ -216,7 +216,7 @@ export default function secondIssue() {
         </div>
         <div className="row py-5">
           <div className="col-6 offset-1" style={{ marginBottom: '-2vh' }}>
-            <Heading3 classi="pb-3" text="Scientific accounts found themselves at the periphery of the Twitter conversation" />
+            <Heading3 classi="pb-3" text="Scientific accounts were often peripheral in Twitter activity associated with the Amazon fires" />
             <p>
               Twitter activity does not necessarily succeed in bringing different kinds of actors into sustained new engagements with each other. In particular, scientists and researchers were not only the least visible, but also not engaged with other clusters of actors.
             </p>
@@ -224,7 +224,7 @@ export default function secondIssue() {
               While most scientific actors did not come into contact with other most mentioned accounts,
               {' '}
               <span className="text-warning">@profstrachan</span>
-              , an account representing an academic specialised in energy policy and environmental management found itself at the centre of Twitter engagement.
+              , an account representing an academic specialised in energy policy and environmental management was frequently mentioned in our corpus.
             </p>
           </div>
           <div className="col-10 offset-1 pb-3" style={{ marginTop: '-10vh' }}>
@@ -283,7 +283,7 @@ export default function secondIssue() {
               {' '}
               has also appeared as the single most active scientific account among the top 20 users who posted the highest numbers of tweets.
             </p>
-            <p>This account is also the most “influential” user in this set, receiving the highest number of mentions more than any other top accounts. </p>
+            <p>This account is also the most “influential” user in this set, receiving the highest number of mentions and more than any other of the top accounts. </p>
           </div>
           <duv className="col-5 offset-1">
             <Image src={img7} />
@@ -332,7 +332,7 @@ export default function secondIssue() {
           </div>
           <div className="col-3 offset-1 pt-5">
             <p>
-              These claims have circulated amongst journalists as well as researchers who work in different research areas. As two scientific sources who promoted the claim were not specialised in the subject matter, these scientists may have engaged with the event in their capacity of concerned citizens. These examples point out some of the challenges both researchers and journalists face in relation to classifying and interpreting social media users.
+              These claims have circulated amongst journalists as well as researchers who work in different research areas. As two scientific sources who promoted the claim were not specialised in the subject matter, they may have been engaging with the event in their capacity as concerned citizens. These examples point out some of the challenges both researchers and journalists face in relation to classifying and interpreting social media users.
               {' '}
             </p>
             <Image src={img91} />
