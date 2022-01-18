@@ -82,13 +82,13 @@ export default function secondIssue() {
         <div className="row align-items-center">
           <div className="col-4 offset-1">
             <p className="pb-2 serif">
-              In 2019, the Amazon rainforest fires became the centre of attention on social media as political actors, celebrities, and athletes including the French President Macron, Leonardo DiCaprio and Cristiano Ronaldo shared their voices, positions and concerns.
+              In 2019, the Amazon rainforest fires became a major centre of attention on social media as political actors, celebrities, and athletes including the French President Macron, Leonardo DiCaprio and Cristiano Ronaldo shared their voices, positions and concerns.
             </p>
             <p className="py-2 serif">
-              While these actors raised public awareness, they also promoted photos and videos from unrelated past events. These public figures also referred to misleading claims, such as “20% of the world’s oxygen is produced in the Amazon”. While the news media and science communities have contested and debunked these unrelated images and videos online, the contents can be repurposed in different contexts, and can continue to have a life online.
+              While these actors raised public awareness, they also promoted photos and videos from other, sometimes unrelated, past events. These public figures also referred to misleading claims, such as “20% of the world’s oxygen is produced in the Amazon”. While the news media and science communities have contested and debunked these unrelated images and videos online, the contents can be repurposed in different contexts, and can continue to circulate widely online.
             </p>
             <p className="py-2 serif">
-              This issue story traces the life cycles of some of this content, and explores instances of recycled media and specific claims related to the Amazon rainforest fires over time.
+              This issue story traces the online circulation of recycled media and specific claims related to the Amazon rainforest fires over time.
             </p>
 
           </div>
@@ -107,13 +107,13 @@ export default function secondIssue() {
             <Heading4 classi="pb-4" text="1 — Generic images from past events are recycled and repurposed to create public awareness " />
           </div>
           <div className="col-5 offset-1">
-            <p>We encounter a wide variety of generic images in the media we consume everyday. In our analysis, various types of images have been collected showing fires and animals from Australia, Africa and Asia.</p>
+            <p>As media and commnications researchers have highlighted we encounter a wide variety of <a href="https://genericvisuals.leeds.ac.uk/" target="_blank" className="text-white">"generic images"</a> in media we consume every day. In our analysis, various types of images have been collected showing fires and animals affected from Australia, Africa and Asia.</p>
           </div>
           <div className="col-6 offset-1 pt-5">
             <Heading3 classi="pb-3" text="Animal photos have been mobilised to share concerns around the Amazon rainforest fires" />
           </div>
           <div className="col-5 offset-1">
-            <p>Among the most visible images in our analyses, there were a number of animal photos portraying the endemic species of the Amazon.</p>
+            <p>Among the most visible images in our analyses, there were a number of animal photos portraying species which are endemic to the Amazon.</p>
             <p>
               One of the iconic photos was an image of a jaguar rescued by the Brazilian army. Originally taken in 2016 for a conservation project, this photo portrays Jiquitaia, an adopted jaguar held by the army officer that adopted him.
             </p>
@@ -211,7 +211,7 @@ export default function secondIssue() {
           <div className="row pt-5">
             <div className="col-7 offset-1">
               <p>
-                Other animal photos included burnt animals, many of which were from the past events including the
+                Other animal photos included burnt animals, many of which were from different past events including the
                 {' '}
                 <span className="text-light">fires in Cajamarca, Peru (2016),</span>
                 {' '}
@@ -574,7 +574,7 @@ export default function secondIssue() {
             <p>
               Research indicates that images "do well" on social media. The professionalised use of stock images in social media posts and news coverage is widespread amongst journalists and media organisations, especially where visuals accompany breaking news stories.
             </p>
-            <p>Our analysis indicates the prominent role that stock and "generic" images play not just in news coverage but also more widely in online mobilisations around environmental issues. While images can be "fact-checked" and it can often be assumed that an image is being presented as a literal representation of events, the re-purposing and circulation of such images are not in itself inherently problematic. Image reuse is not only part of professional image editorial, but also digital culture and social media user practices (e.g. making memes from common images and stock photography).</p>
+            <p>Our analysis indicates the prominent role that stock and "generic" images play not just in news coverage but also more widely in online mobilisations around environmental issues. While images can be "fact-checked" and it can often be assumed that an image is being presented as a literal representation of events, the re-purposing of such images is not in itself inherently problematic. Image reuse is not only part of professional image editorial, but also digital culture and social media user practices (e.g. making memes from common images and stock photography).</p>
             <p>The politics of recycled media, stock photography and generic images in relation to environmental issues deserve careful attention and interpretation. Our research suggests the value of more differential analyses about what such images do and more situated accounts of the meanings with which they are invested, rather than being assumed to default to a more literal, representational mode.</p>
           </div>
         </div>

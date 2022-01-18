@@ -10,8 +10,8 @@ export default function HomeIndex() {
     {
       src: chap1,
       title: 'Emerging forest governance issues through hashtags\n',
-      descr1: 'Hashtags can act as indicators of  issues and concerns of different publics on social media. They can serve as an entry point to explore how people connect different subject matters to each other in the wake of a global event. Through the Twitter analysis on the 2019 Amazon rainforest fires, we have identified various forest governance issues through a series of conversations with forest governance experts and journalists, many of whom followed the event closely during the peak period.   ',
-      descr2: 'This Issue Story portrays a collection of ‘global talking points’ that emerged through hashtags when the Amazon fires became international news. ',
+      descr1: 'Hashtags can act as indicators of issues and concerns of different actors on social media. They can serve as an entry point to explore how people connect different subject matters to each other in the wake of a global event. Through the Twitter analysis on the 2019 Amazon rainforest fires, we have identified various forest governance issues through a series of conversations with forest governance experts and journalists, many of whom followed the event closely during the peak period.',
+      descr2: 'This Issue Story explores a collection of ‘global talking points’ that emerged through hashtags when the Amazon fires became international news. ',
       link: '/first-issue',
     },
     {
