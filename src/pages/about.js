@@ -97,8 +97,7 @@ export default function Index() {
           </div>
           <div className="col-6 offset-1">
             <p>
-              link
-              {' '}
+              <a href="https://efi.int/publications-bank/out-flames-mapping-online-engagement-and-public-narratives-around-2019-amazon" target="_blank" rel="noreferrer" className="text-white text-decoration-none">click here</a>
             </p>
           </div>
         </div>
@@ -193,6 +192,9 @@ export default function Index() {
               <li>Alex Held, Senior Expert, Resilience Programme, European Forest Institute</li>
 
               <li>Ana Magalhães, Journalism Coordinator, Repórter Brasil</li>
+              <li>
+                Anna Begemann, Researcher, Governance Programme, European Forest Institute
+              </li>
 
               <li>Bruno Fávero, Fact Checker, Aos Fatos</li>
 
@@ -201,7 +203,9 @@ export default function Index() {
               <li>Ciaran Nugent, Forestry Inspector, Irish Forest Service, Department of Agriculture, Food & Marine</li>
 
               <li>Claudio Angelo, Communications Manager, Observatório do Clima</li>
-
+              <li>
+                Flavia Martins Y Miguel, Editor, Portal R7 Minas Record TV
+              </li>
               <li>
                 Gustavo Faleiros, Founder, InfoAmazonia
               </li>

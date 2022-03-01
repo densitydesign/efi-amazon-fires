@@ -107,7 +107,12 @@ export default function secondIssue() {
             <Heading4 classi="pb-4" text="1 — Generic images from past events are recycled and repurposed to create public awareness " />
           </div>
           <div className="col-5 offset-1">
-            <p>As media and commnications researchers have highlighted we encounter a wide variety of <a href="https://genericvisuals.leeds.ac.uk/" target="_blank" className="text-white">"generic images"</a> in media we consume every day. In our analysis, various types of images have been collected showing fires and animals affected from Australia, Africa and Asia.</p>
+            <p>
+              As media and communications researchers have highlighted we encounter a wide variety of
+              <a href="https://genericvisuals.leeds.ac.uk/" target="_blank" className="text-white" rel="noreferrer">"generic images"</a>
+              {' '}
+              in media we consume every day. In our analysis, various types of images have been collected showing fires and animals affected from Australia, Africa and Asia.
+            </p>
           </div>
           <div className="col-6 offset-1 pt-5">
             <Heading3 classi="pb-3" text="Animal photos have been mobilised to share concerns around the Amazon rainforest fires" />
@@ -260,7 +265,7 @@ export default function secondIssue() {
                 This image was shot by a photographer who passed away in 2003. The
                 <span className="text-warning"> photo posted by Cristiano Ronaldo</span>
                 {' '}
-                was from 2013 and not taken in southern Brazil.
+                was from 2013 and taken in southern Brazil.
               </p>
               <p>
                 <span className="text-secondary">Leonardo DiCaprio also acknowledged that the photo</span>

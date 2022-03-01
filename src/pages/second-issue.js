@@ -234,7 +234,7 @@ export default function secondIssue() {
             <p>
               Far from the centre, there are a few scientist names, namely
               <span className="text-secondary">  @Erika_Berenguer</span>
-              , a tropical forest ecologist at the University of Oxford,
+              , a tropical forest ecologist at the University of Oxford and
               {' '}
               <span className="text-secondary"> @AnaPDAguiar</span>
               , a researcher at the Stockholm Resilience Centre specialised in land use models and scenarios. Further to the right,
