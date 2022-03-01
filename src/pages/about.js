@@ -5,7 +5,7 @@ import { Heading1, Heading5 } from '../components/Typography';
 export default function Index() {
   return (
     <Layout section={{
-      title: 'about',
+      title: 'About',
     }}
     >
       <div className="container-fluid bg-primary ">

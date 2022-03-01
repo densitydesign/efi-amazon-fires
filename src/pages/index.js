@@ -6,7 +6,7 @@ import { Heading4 } from '../components/Typography';
 export default function Index() {
   return (
     <Layout section={{
-      title: 'homepage',
+      title: 'Homepage',
     }}
     >
 
